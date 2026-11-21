@@ -31,9 +31,9 @@
   --navy:#1F1070;
   --navy2:#160B4A;
   --navy3:#2A1788;
-  --blue:#3D9ED0;
-  --blue2:#2B7EB0;
-  --blue-soft:#E7F4FB;
+  --blue:#6CA3B9;
+  --blue2:#4E8799;
+  --blue-soft:#E7F2F5;
   --beige:#C9B17A;
   --beige2:#E6D8B0;
   --paper:#F3EFE6;
@@ -68,7 +68,7 @@ header .w{display:flex;align-items:center;justify-content:space-between;gap:16px
 .logo{display:flex;align-items:center;gap:12px}
 .logo img{width:136px;height:auto}
 .logo span{display:flex;flex-direction:column;line-height:1.15;font-size:.78rem;color:var(--mute);font-weight:600}
-.logo strong{color:var(--navy);font-size:.92rem;font-weight:700;letter-spacing:.02em}
+.logo strong{color:var(--blue);font-size:.92rem;font-weight:700;letter-spacing:.02em}
 nav.desk{display:flex;align-items:center;gap:22px;font-weight:600;font-size:.95rem}
 nav.desk a:not(.cta){color:var(--ink)}
 nav.desk a:not(.cta):hover{color:var(--navy)}
@@ -94,9 +94,9 @@ nav.mob a{font-weight:600;padding:8px 0}
 .hero h1{margin:0 0 18px;color:#fff}
 .hero .lead{font-size:1.12rem;max-width:34rem;color:#d9e4f0;margin:0 0 28px}
 .hero-actions{display:flex;flex-wrap:wrap;gap:12px}
-.hero-art{position:relative;display:grid;place-items:center;min-height:420px}
+.hero-art{position:relative;display:grid;place-items:center;min-height:0}
 .hero-art .glow{position:absolute;width:78%;height:78%;border-radius:50%;background:radial-gradient(circle,rgba(61,158,208,.28),transparent 68%)}
-.hero-art img{position:relative;width:min(420px,100%);filter:drop-shadow(0 28px 28px rgba(0,0,0,.28))}
+.hero-art img{position:relative;width:100%;filter:drop-shadow(0 18px 24px rgba(0,0,0,.28));background:#fff;border-radius:16px}
 .badge{position:absolute;left:8%;bottom:8%;background:#fff;color:var(--navy);padding:10px 14px;border-radius:12px;font-weight:700;line-height:1.15;box-shadow:var(--shadow);z-index:2}
 .badge b{display:block;font-family:var(--disp);font-size:1.5rem;letter-spacing:.02em}
 .badge span{font-size:.78rem;color:var(--mute);font-weight:600}
@@ -114,8 +114,8 @@ nav.mob a{font-weight:600;padding:8px 0}
 .manifiesto .note{margin-top:22px;color:#c5d0de;max-width:36rem}
 .cat-head{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap;margin-bottom:36px}
 .tinaco-block{display:grid;grid-template-columns:1fr 1fr;gap:40px;background:#fff;border:1px solid var(--line);border-radius:24px;padding:28px 28px 24px;box-shadow:var(--shadow);align-items:center}
-.stage{background:linear-gradient(180deg,#f7f3ea,#e9e2d2);border-radius:18px;min-height:460px;display:grid;place-items:center;position:relative;padding:16px 16px 28px}
-.stage img{width:min(340px,100%);margin:auto}
+.stage{background:#fff;border-radius:18px;min-height:0;display:grid;place-items:center;position:relative;padding:18px 16px;border:1px solid var(--line)}
+.stage img{width:100%;margin:auto;object-fit:contain}
 .tabs{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
 .tabs button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 14px;cursor:pointer;font-weight:600;color:var(--ink)}
 .tabs button[aria-selected="true"]{background:var(--navy);color:#fff;border-color:var(--navy)}
@@ -125,6 +125,8 @@ nav.mob a{font-weight:600;padding:8px 0}
 .includes{list-style:none;padding:0;margin:16px 0 22px;display:grid;gap:6px}
 .includes li{padding-left:22px;position:relative}
 .includes li:before{content:"";position:absolute;left:0;top:.55em;width:8px;height:8px;border-radius:50%;background:var(--blue)}
+.acc-photo{margin:8px 0 20px;border-radius:14px;overflow:hidden;border:1px solid var(--line);background:#f3f3f3}
+.acc-photo img{width:100%;display:block}
 .layers{display:flex;gap:8px;margin:18px 0 8px;align-items:stretch;min-height:86px}
 .layers .bar{flex:1;border-radius:8px;display:flex;align-items:flex-end;justify-content:center;padding:8px 6px;text-align:center;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;line-height:1.2}
 .layers .beige{background:var(--beige);color:#3a2e14}
@@ -174,7 +176,7 @@ footer strong{color:#fff}
   .hero .w,.tinaco-block,.pair,.why,.cotizar .w,.contact-grid,.strip .w{grid-template-columns:1fr}
   .hero{min-height:auto}
   .hero .w{padding:36px 0 20px}
-  .hero-art{min-height:340px;order:-1}
+  .hero-art{min-height:0;order:-1;padding-bottom:12px}
   .strip .w{grid-template-columns:1fr 1fr}
   .section{padding:64px 0}
   .logo img{width:110px}
@@ -224,8 +226,8 @@ footer strong{color:#fff}
     </div>
     <div class="hero-art">
       <div class="glow" aria-hidden="true"></div>
-      <img src="img/tinaco-tres-capas.svg" alt="Tinaco ROPLAIN de 1,200 litros, tres capas, exterior beige">
-      <div class="badge"><b>1,200 L</b><span>Tinaco tres capas</span></div>
+      <img src="img/tinacos-1200.png" alt="Tinacos ROPLAIN de 1,200 litros en tres presentaciones: tres capas beige, natural blanco y bicapa negro">
+      <div class="badge"><b>1,200 L</b><span>Tres presentaciones</span></div>
     </div>
   </div>
 </section>
@@ -259,7 +261,7 @@ footer strong{color:#fff}
 
     <article class="tinaco-block">
       <div class="stage">
-        <img id="tinaco-art" src="img/tinaco-tres-capas.svg" alt="Tinaco ROPLAIN de 1,200 litros, tres capas, exterior beige">
+        <img id="tinaco-art" src="img/tinacos-1200.png" alt="Tinacos ROPLAIN de 1,200 litros: beige de tres capas, natural blanco y bicapa negro">
       </div>
       <div>
         <p class="tag">Tinaco</p>
@@ -292,6 +294,9 @@ footer strong{color:#fff}
           <li>Multiconector</li>
           <li>Jarro de aire</li>
         </ul>
+        <figure class="acc-photo">
+          <img src="img/accesorios.png" alt="Tapa rosca, flotador con válvula y accesorios que incluye el tinaco de 1,200 litros">
+        </figure>
         <a class="btn wa" href="https://wa.me/525521128404?text=Hola%2C%20vi%20la%20p%C3%A1gina%20de%20ROPLAIN%20y%20quiero%20cotizar%20el%20tinaco%20de%201200%20litros" target="_blank" rel="noopener">Cotizar este tinaco</a>
       </div>
     </article>
@@ -353,7 +358,7 @@ footer strong{color:#fff}
           <text x="52" y="208" text-anchor="middle" font-size="12" font-family="Source Sans 3, sans-serif" fill="#5C5A66">Beige</text>
           <text x="106" y="208" text-anchor="middle" font-size="12" font-family="Source Sans 3, sans-serif" fill="#5C5A66">Negra</text>
           <text x="156" y="208" text-anchor="middle" font-size="12" font-family="Source Sans 3, sans-serif" fill="#5C5A66">Blanca</text>
-          <text x="282" y="114" text-anchor="middle" font-size="15" font-family="Source Sans 3, sans-serif" fill="#2B7EB0">Agua</text>
+          <text x="282" y="114" text-anchor="middle" font-size="15" font-family="Source Sans 3, sans-serif" fill="#4E8799">Agua</text>
         </svg>
       </figure>
     </aside>
@@ -444,24 +449,18 @@ footer strong{color:#fff}
 
   var copy = {
     'tres-capas': {
-      src: 'img/tinaco-tres-capas.svg',
-      alt: 'Tinaco ROPLAIN de 1,200 litros, tres capas, exterior beige',
       text: 'Tres capas. Peso vacío: 22 kg. El exterior beige resiste el sol, la capa negra intermedia bloquea la luz y el interior blanco favorece un almacenamiento más limpio.',
       peso: '22 kg',
       layers: ['beige','black','white'],
       labels: ['Exterior beige','Intermedia negra','Interior blanco']
     },
     'bicapa': {
-      src: 'img/tinaco-bicapa.svg',
-      alt: 'Tinaco ROPLAIN de 1,200 litros, bicapa, exterior negro',
       text: 'Bicapa. Peso vacío: 18 kg. Exterior negro e interior blanco.',
       peso: '18 kg',
       layers: ['black','white'],
       labels: ['Exterior negro','Interior blanco']
     },
     'natural': {
-      src: 'img/tinaco-natural.svg',
-      alt: 'Tinaco ROPLAIN de 1,200 litros, natural, capa translúcida',
       text: 'Natural. Peso vacío: 22 kg. Una sola capa translúcida de polietileno.',
       peso: '22 kg',
       layers: ['trans'],
@@ -469,7 +468,6 @@ footer strong{color:#fff}
     }
   };
 
-  var art = document.getElementById('tinaco-art');
   var varCopy = document.getElementById('var-copy');
   var layerBox = document.getElementById('layers');
   document.querySelectorAll('.tabs button').forEach(function(btn){
@@ -477,8 +475,6 @@ footer strong{color:#fff}
       document.querySelectorAll('.tabs button').forEach(function(b){ b.setAttribute('aria-selected','false'); });
       btn.setAttribute('aria-selected','true');
       var v = copy[btn.getAttribute('data-var')];
-      art.src = v.src;
-      art.alt = v.alt;
       varCopy.textContent = v.text;
       document.getElementById('peso').textContent = v.peso;
       layerBox.innerHTML = v.layers.map(function(cls, i){
