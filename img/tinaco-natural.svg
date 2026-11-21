@@ -1,0 +1,63 @@
+<svg viewBox="0 0 400 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tinaco ROPLAIN de 1,200 litros, natural, capa translúcida">
+  <defs>
+    <linearGradient id="g-natural" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C4BAA4"/>
+<stop offset="18%" stop-color="#E6DFD0"/>
+<stop offset="40%" stop-color="#F5F1E8"/>
+<stop offset="68%" stop-color="#E6DECE"/>
+<stop offset="100%" stop-color="#C0B69E"/>
+    </linearGradient>
+    <linearGradient id="dome-natural" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EEE8DC"/>
+      <stop offset="100%" stop-color="#D0C6B2"/>
+    </linearGradient>
+    <linearGradient id="cap-natural" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F6F2EA"/>
+      <stop offset="100%" stop-color="#C8BCA6"/>
+    </linearGradient>
+    <filter id="sh-natural" x="-20%" y="-5%" width="140%" height="130%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8" result="b"/>
+      <feOffset dy="14" result="o"/>
+      <feComponentTransfer in="o"><feFuncA type="linear" slope="0.22"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="bodyclip-natural">
+      <path d="M74 208 C74 186 128 170 200 170 C272 170 326 186 326 208
+               L326 424 C326 450 272 470 200 470 C128 470 74 450 74 424 Z"/>
+    </clipPath>
+  </defs>
+  <g filter="url(#sh-natural)">
+    <!-- solid body -->
+    <path d="M74 208 C74 186 128 170 200 170 C272 170 326 186 326 208
+             L326 424 C326 450 272 470 200 470 C128 470 74 450 74 424 Z"
+          fill="url(#g-natural)" opacity="0.96"/>
+    <ellipse cx="200" cy="424" rx="126" ry="23" fill="url(#g-natural)"/>
+    <!-- front ribs only (lower arc of each ellipse) -->
+    <g clip-path="url(#bodyclip-natural)" fill="none" stroke="#A09078" stroke-width="8" stroke-opacity="0.22">
+      <path d="M76 250 C76 268 128 286 200 286 C272 286 324 268 324 250"/>
+      <path d="M76 312 C76 330 128 348 200 348 C272 348 324 330 324 312"/>
+      <path d="M76 374 C76 392 128 410 200 410 C272 410 324 392 324 374"/>
+    </g>
+    <!-- left highlight -->
+    <path d="M112 210 C118 196 150 184 188 182 C160 200 126 250 120 330 C116 390 128 430 156 448 C110 420 100 320 112 210Z"
+          fill="#ffffff" opacity="0.28"/>
+    <!-- shoulder / top of cylinder -->
+    <ellipse cx="200" cy="208" rx="126" ry="23" fill="url(#g-natural)"/>
+    <ellipse cx="200" cy="204" rx="118" ry="20" fill="url(#dome-natural)" opacity=".55"/>
+    <!-- dome -->
+    <path d="M118 204 C118 152 154 120 200 120 C246 120 282 152 282 204
+             C282 188 250 176 200 176 C150 176 118 188 118 204 Z" fill="url(#dome-natural)"/>
+    <ellipse cx="200" cy="200" rx="82" ry="14" fill="url(#g-natural)" opacity=".35"/>
+    <!-- 19" screw lid -->
+    <ellipse cx="200" cy="126" rx="46" ry="13" fill="url(#cap-natural)"/>
+    <rect x="154" y="106" width="92" height="22" rx="3" fill="url(#cap-natural)"/>
+    <ellipse cx="200" cy="106" rx="46" ry="13" fill="url(#cap-natural)"/>
+    <ellipse cx="200" cy="103" rx="34" ry="9" fill="#ffffff" opacity=".2"/>
+    <g fill="none" stroke="#000000" stroke-opacity=".16" stroke-width="1.1">
+      <ellipse cx="200" cy="106" rx="38" ry="10"/>
+      <ellipse cx="200" cy="106" rx="26" ry="7"/>
+    </g>
+    <rect x="193" y="90" width="14" height="10" rx="2" fill="#C8BCA6"/>
+    <ellipse cx="200" cy="90" rx="7" ry="3.2" fill="#F6F2EA"/>
+  </g>
+</svg>
