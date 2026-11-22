@@ -1,519 +1,1068 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es-MX">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex,nofollow">
-<meta name="theme-color" content="#1F1070">
-<title>ROPLAIN · Tinacos y cisternas · Agua Limpia</title>
-<meta name="description" content="Fábrica de rotomoldeo en Iztapalapa. Tinacos y cisternas de polietileno: tinaco de 1,200 litros en tres capas, bicapa o natural, y cisterna de 5,000 litros tipo hamburguesa. Cotiza por WhatsApp.">
-<link rel="canonical" href="https://lalo0790.github.io/roplain-muestra/">
-<meta property="og:type" content="website">
-<meta property="og:locale" content="es_MX">
-<meta property="og:title" content="ROPLAIN · Tinacos y cisternas · Agua Limpia">
-<meta property="og:description" content="Fábrica de rotomoldeo en Santa Martha Acatitla Norte, Iztapalapa. Tinacos y cisternas de polietileno.">
-<meta property="og:url" content="https://lalo0790.github.io/roplain-muestra/">
-<meta property="og:image" content="https://lalo0790.github.io/roplain-muestra/img/og.jpg">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="ROPLAIN · Tinacos y cisternas · Agua Limpia">
-<meta name="twitter:description" content="Fábrica de rotomoldeo en Iztapalapa. Cotiza por WhatsApp.">
-<meta name="twitter:image" content="https://lalo0790.github.io/roplain-muestra/img/og.jpg">
-<link rel="icon" type="image/png" href="img/favicon.png">
-<link rel="apple-touch-icon" href="img/apple-touch.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
-<link rel="preload" as="image" href="img/logo.png">
-<style>
-:root{
-  --navy:#1F1070;
-  --navy2:#160B4A;
-  --navy3:#2A1788;
-  --blue:#6CA3B9;
-  --blue2:#4E8799;
-  --blue-soft:#E7F2F5;
-  --beige:#C9B17A;
-  --beige2:#E6D8B0;
-  --paper:#F3EFE6;
-  --paper2:#E8E2D4;
-  --ink:#16151C;
-  --mute:#5C5A66;
-  --line:#D8D2C6;
-  --white:#fff;
-  --wa:#25D366;
-  --wa2:#1DA851;
-  --disp:"Barlow Condensed",Impact,sans-serif;
-  --sans:"Source Sans 3",system-ui,sans-serif;
-  --shadow:0 22px 48px -28px rgba(22,11,74,.45);
-  --radius:18px;
-}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 var(--sans);-webkit-font-smoothing:antialiased}
-img,svg{display:block;max-width:100%;height:auto}
-a{color:inherit;text-decoration:none}
-button,input,select,textarea{font:inherit}
-.w{width:min(1120px,calc(100% - 40px));margin-inline:auto}
-section[id],#catalogo,#calidad,#cotizar,#contacto{scroll-margin-top:92px}
-h1,h2,h3,.disp{font-family:var(--disp);font-weight:600;letter-spacing:.01em;line-height:.95;margin:0}
-h1{font-size:clamp(2.6rem,7vw,4.6rem)}
-h2{font-size:clamp(2rem,4.6vw,3.1rem)}
-h3{font-size:1.5rem}
-.kicker{font-family:var(--sans);font-weight:600;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--blue);margin:0 0 12px}
-.sub{color:var(--mute);max-width:38rem;margin:14px 0 0}
-header{position:sticky;top:0;z-index:40;background:rgba(255,255,255,.94);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
-header .w{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:76px}
-.logo{display:flex;align-items:center;gap:12px}
-.logo img{width:136px;height:auto}
-.logo span{display:flex;flex-direction:column;line-height:1.15;font-size:.78rem;color:var(--mute);font-weight:600}
-.logo strong{color:var(--blue);font-size:.92rem;font-weight:700;letter-spacing:.02em}
-nav.desk{display:flex;align-items:center;gap:22px;font-weight:600;font-size:.95rem}
-nav.desk a:not(.cta){color:var(--ink)}
-nav.desk a:not(.cta):hover{color:var(--navy)}
-.btn,.cta{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--navy);color:#fff;border:0;border-radius:999px;padding:12px 20px;font-weight:600;cursor:pointer;transition:background .2s,transform .2s}
-.btn:hover,.cta:hover{background:var(--navy3)}
-.btn.wa,.cta.wa{background:var(--wa);color:#083216}
-.btn.wa:hover,.cta.wa:hover{background:var(--wa2);color:#fff}
-.btn.ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.45)}
-.btn.ghost:hover{background:rgba(255,255,255,.08)}
-.btn.ghost.dark{color:var(--navy);border-color:var(--navy)}
-.btn.ghost.dark:hover{background:var(--navy);color:#fff}
-.burger{display:none;width:44px;height:44px;border:0;background:transparent;padding:0;cursor:pointer}
-.burger span,.burger span:before,.burger span:after{display:block;width:22px;height:2px;background:var(--navy);position:relative;margin:auto}
-.burger span:before,.burger span:after{content:"";position:absolute;left:0}
-.burger span:before{top:-7px}
-.burger span:after{top:7px}
-nav.mob{display:none;flex-direction:column;padding:8px 20px 20px;gap:12px;border-top:1px solid var(--line);background:var(--paper)}
-nav.mob.on{display:flex}
-nav.mob a{font-weight:600;padding:8px 0}
-.hero{background:linear-gradient(180deg,var(--navy2) 0%,var(--navy) 60%,#27167a 100%);color:#fff;position:relative;overflow:hidden;min-height:calc(100vh - 76px);display:flex;align-items:center}
-.hero:before{content:"";position:absolute;left:0;top:0;bottom:0;width:8px;background:var(--blue)}
-.hero .w{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center;padding:56px 0 64px;position:relative;z-index:1}
-.hero h1{margin:0 0 18px;color:#fff}
-.hero .lead{font-size:1.12rem;max-width:34rem;color:#d9e4f0;margin:0 0 28px}
-.hero-actions{display:flex;flex-wrap:wrap;gap:12px}
-.hero-art{position:relative;display:grid;place-items:center;min-height:0}
-.hero-art .glow{position:absolute;width:78%;height:78%;border-radius:50%;background:radial-gradient(circle,rgba(61,158,208,.28),transparent 68%)}
-.hero-art img{position:relative;width:100%;filter:drop-shadow(0 18px 24px rgba(0,0,0,.28));background:#fff;border-radius:16px}
-.badge{position:absolute;left:8%;bottom:8%;background:#fff;color:var(--navy);padding:10px 14px;border-radius:12px;font-weight:700;line-height:1.15;box-shadow:var(--shadow);z-index:2}
-.badge b{display:block;font-family:var(--disp);font-size:1.5rem;letter-spacing:.02em}
-.badge span{font-size:.78rem;color:var(--mute);font-weight:600}
-.strip{background:var(--white);border-bottom:1px solid var(--line)}
-.strip .w{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;padding:22px 0}
-.strip div{padding:8px 12px 8px 0}
-.strip b{display:block;font-family:var(--disp);font-size:1.45rem;color:var(--navy);letter-spacing:.02em;line-height:1}
-.strip span{color:var(--mute);font-size:.88rem}
-.section{padding:88px 0}
-.manifiesto{background:var(--navy2);color:#fff;position:relative}
-.manifiesto:before{content:"";position:absolute;left:0;top:0;bottom:0;width:8px;background:var(--blue)}
-.manifiesto .w{max-width:900px}
-.manifiesto p.big{font-family:var(--disp);font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.15;letter-spacing:.01em;margin:0;font-weight:500}
-.manifiesto p.big em{font-style:normal;color:var(--blue);font-weight:600}
-.manifiesto .note{margin-top:22px;color:#c5d0de;max-width:36rem}
-.cat-head{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap;margin-bottom:36px}
-.tinaco-block{display:grid;grid-template-columns:1fr 1fr;gap:40px;background:#fff;border:1px solid var(--line);border-radius:24px;padding:28px 28px 24px;box-shadow:var(--shadow);align-items:center}
-.stage{background:#fff;border-radius:18px;min-height:0;display:grid;place-items:center;position:relative;padding:18px 16px;border:1px solid var(--line)}
-.stage img{width:100%;margin:auto;object-fit:contain}
-.tabs{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
-.tabs button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 14px;cursor:pointer;font-weight:600;color:var(--ink)}
-.tabs button[aria-selected="true"]{background:var(--navy);color:#fff;border-color:var(--navy)}
-.specs{width:100%;border-collapse:collapse;margin:16px 0 8px;font-size:.95rem}
-.specs th{text-align:left;font-weight:600;color:var(--mute);padding:8px 12px 8px 0;border-bottom:1px solid var(--line);width:46%}
-.specs td{padding:8px 0;border-bottom:1px solid var(--line)}
-.includes{list-style:none;padding:0;margin:16px 0 22px;display:grid;gap:6px}
-.includes li{padding-left:22px;position:relative}
-.includes li:before{content:"";position:absolute;left:0;top:.55em;width:8px;height:8px;border-radius:50%;background:var(--blue)}
-.acc-photo{margin:8px 0 20px;border-radius:14px;overflow:hidden;border:1px solid var(--line);background:#f3f3f3}
-.acc-photo img{width:100%;display:block}
-.layers{display:flex;gap:8px;margin:18px 0 8px;align-items:stretch;min-height:86px}
-.layers .bar{flex:1;border-radius:8px;display:flex;align-items:flex-end;justify-content:center;padding:8px 6px;text-align:center;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;line-height:1.2}
-.layers .beige{background:var(--beige);color:#3a2e14}
-.layers .black{background:#1a1a1a;color:#fff}
-.layers .white{background:#f7f7f5;color:#333;border:1px solid var(--line)}
-.layers .trans{background:linear-gradient(180deg,#f4f0e6,#d8d0c0);color:#3a3428;border:1px solid var(--line)}
-.layers .off{display:none}
-.pair{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;margin-top:28px}
-.card{background:#fff;border:1px solid var(--line);border-radius:24px;padding:24px;box-shadow:var(--shadow)}
-.card.stage-card{padding:0;overflow:hidden;display:flex;flex-direction:column}
-.card.stage-card .stage{border-radius:0;min-height:280px;flex:1}
-.card.stage-card .pad{padding:22px 24px 24px}
-.tag{display:inline-block;background:var(--blue-soft);color:var(--blue2);font-weight:700;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;padding:4px 8px;border-radius:999px;margin-bottom:8px}
-.why{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
-.why-grid{display:grid;gap:16px}
-.why-grid article{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px 20px}
-.why-grid h3{color:var(--navy);margin-bottom:6px}
-.cut{background:#fff;border:1px solid var(--line);border-radius:24px;padding:28px;box-shadow:var(--shadow)}
-.cut figure{margin:18px 0 0}
-.cut-svg{width:100%;height:auto}
-.cotizar{background:var(--white)}
-.cotizar .w{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
-form{display:grid;gap:12px;background:var(--paper);border:1px solid var(--line);border-radius:24px;padding:24px}
-label{display:grid;gap:6px;font-weight:600;font-size:.9rem}
-input,select,textarea{border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:#fff;color:var(--ink)}
-input:focus,select:focus,textarea:focus{outline:2px solid var(--blue);outline-offset:1px}
-.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:24px;align-items:stretch}
-.facts{background:#fff;border:1px solid var(--line);border-radius:24px;padding:24px 26px;box-shadow:var(--shadow)}
-.facts a{color:var(--navy);font-weight:600}
-.facts dt{font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--mute);font-weight:700;margin:14px 0 4px}
-.facts dt:first-child{margin-top:0}
-.facts dd{margin:0}
-.map-wrap{position:relative;min-height:380px;border-radius:24px;overflow:hidden;border:1px solid var(--line);background:#d9e0d6;box-shadow:var(--shadow);display:flex;flex-direction:column}
-.map{border:0;width:100%;flex:1;min-height:360px;filter:grayscale(.08)}
-.map-link{display:block;text-align:center;padding:10px 12px;font-weight:600;font-size:.88rem;color:var(--navy);background:#fff;border-top:1px solid var(--line)}
-footer{background:var(--navy2);color:#c5d0de;padding:36px 0 28px;font-size:.92rem}
-footer .w{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center}
-footer strong{color:#fff}
-.float-wa{position:fixed;right:18px;bottom:18px;z-index:50;width:58px;height:58px;border-radius:50%;background:var(--wa);display:grid;place-items:center;box-shadow:0 10px 24px rgba(0,0,0,.2);transition:transform .2s}
-.float-wa:hover{transform:scale(1.06)}
-.float-wa svg{width:30px;height:30px}
-.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
-.reveal.in{opacity:1;transform:none}
-@media (max-width:860px){
-  nav.desk{display:none}
-  .burger{display:grid}
-  .hero .w,.tinaco-block,.pair,.why,.cotizar .w,.contact-grid,.strip .w{grid-template-columns:1fr}
-  .hero{min-height:auto}
-  .hero .w{padding:36px 0 20px}
-  .hero-art{min-height:0;order:-1;padding-bottom:12px}
-  .strip .w{grid-template-columns:1fr 1fr}
-  .section{padding:64px 0}
-  .logo img{width:110px}
-  .map{min-height:280px}
-}
-@media (prefers-reduced-motion:reduce){
-  html{scroll-behavior:auto}
-  .reveal{opacity:1;transform:none;transition:none}
-}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="ROPLAIN, fábrica de rotomoldeo en Iztapalapa, CDMX. Tinacos y cisternas de polietileno de 550 a 12,000 litros, con garantía de fabricación de 10 años.">
+  <title>ROPLAIN · Agua Limpia — Tinacos y cisternas</title>
+  <link rel="canonical" href="https://lalo0790.github.io/roplain-muestra/">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="img/favicon.png">
+  <link rel="apple-touch-icon" href="img/apple-touch.png">
+  <meta property="og:title" content="ROPLAIN · Agua Limpia — Tinacos y cisternas">
+  <meta property="og:description" content="Fábrica de rotomoldeo en Iztapalapa. Tinacos y cisternas de 550 a 12,000 litros. Garantía de fabricación de 10 años.">
+  <meta property="og:image" content="https://lalo0790.github.io/roplain-muestra/img/og.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_MX">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --navy: #1F1070;
+      --navy-deep: #160A52;
+      --navy-mid: #2A1A86;
+      --navy-soft: #EEEAF8;
+      --accent: #6CA3B9;
+      --accent-2: #4E8799;
+      --accent-soft: #E7F2F5;
+      --ink: #1C1B22;
+      --muted: #5A5863;
+      --line: #E2DFE8;
+      --paper: #F5F3EE;
+      --white: #fff;
+      --wa: #156B45;
+      --wa-hover: #0F5134;
+      --shadow: 0 10px 30px rgba(31,16,112,.08);
+      --header-h: 84px;
+      --radius: 6px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: "Source Sans 3", "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--white);
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+    img { max-width: 100%; height: auto; display: block; }
+    a { color: var(--navy); }
+    button, input, select { font: inherit; }
+    h1,h2,h3,h4 { font-family: "Barlow Condensed", "Arial Narrow", sans-serif; letter-spacing: .01em; line-height: 1.05; margin: 0 0 .4em; color: var(--navy); }
+    h1 { font-size: clamp(2.4rem, 5.4vw, 4.4rem); font-weight: 700; }
+    h2 { font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 700; }
+    h3 { font-size: 1.35rem; font-weight: 600; }
+    p { margin: 0 0 1em; }
+    .wrap { width: min(1180px, calc(100% - 40px)); margin-inline: auto; }
+    .skip { position: absolute; left: -1000px; top: 0; background: var(--navy); color: #fff; padding: .6rem 1rem; z-index: 100; }
+    .skip:focus { left: 12px; top: 12px; }
+
+    /* Header */
+    header {
+      position: sticky; top: 0; z-index: 40;
+      background: rgba(255,255,255,.96);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid transparent;
+      transition: border-color .3s, box-shadow .3s;
+    }
+    header.scrolled { border-bottom-color: var(--line); box-shadow: 0 4px 18px rgba(31,16,112,.06); }
+    .head {
+      display: flex; align-items: center; justify-content: space-between;
+      height: var(--header-h); gap: 1rem;
+    }
+    .logo img { height: 70px; width: auto; }
+    nav { display: flex; align-items: center; gap: 1.15rem; }
+    nav .btn { flex-shrink: 0; white-space: nowrap; }
+    nav a {
+      text-decoration: none; color: var(--navy); font-weight: 600;
+      font-size: .95rem; position: relative;
+    }
+    nav a:hover { color: var(--accent-2); }
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: .45rem;
+      border: 0; cursor: pointer; text-decoration: none; font-weight: 600;
+      padding: .7rem 1.15rem; border-radius: var(--radius);
+      transition: transform .2s, background .2s, color .2s, box-shadow .2s;
+    }
+    .btn:hover { transform: translateY(-1px); }
+    .btn-navy { background: var(--navy); color: #fff; }
+    .btn-navy:hover { background: var(--navy-deep); color: #fff; }
+    .btn-wa { background: var(--wa); color: #fff; white-space: nowrap; }
+    .btn-wa:hover { background: var(--wa-hover); color: #fff; }
+    .btn-ghost { background: transparent; color: var(--navy); border: 1px solid var(--navy); }
+    .btn-ghost:hover { background: var(--navy-soft); }
+    .btn-light { background: #fff; color: var(--navy); }
+    .nav-toggle { display: none; background: none; border: 0; padding: .4rem; cursor: pointer; }
+    .nav-toggle span { display: block; width: 22px; height: 2px; background: var(--navy); margin: 5px 0; }
+
+    /* Hero */
+    .hero {
+      background: linear-gradient(180deg, var(--paper) 0%, #fff 100%);
+      padding: 2.2rem 0 3.2rem;
+      overflow: hidden;
+    }
+    .hero-grid {
+      display: grid; grid-template-columns: 1fr 1.15fr; gap: 3rem; align-items: center;
+    }
+    .eyebrow {
+      font-size: .78rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase;
+      color: var(--accent-2); margin-bottom: .7rem;
+    }
+    .hero p.lead { font-size: 1.15rem; color: var(--muted); max-width: 36rem; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: .7rem; margin: 1.4rem 0 1.6rem; }
+    .trust { display: flex; flex-wrap: wrap; gap: .5rem; }
+    .pill {
+      background: var(--accent-soft); color: var(--navy);
+      font-size: .8rem; font-weight: 700; letter-spacing: .04em;
+      padding: .35rem .7rem; border-radius: 100px; border: 1px solid #d3e6ec;
+    }
+    .hero-photo {
+      position: relative;
+    }
+    .hero-photo img {
+      width: 100%; border-radius: 8px;
+      box-shadow: var(--shadow);
+      background: #dbeaf0;
+    }
+    .hero-photo figcaption {
+      font-size: .8rem; color: var(--muted); margin-top: .55rem;
+    }
+
+    /* Sections */
+    section { padding: 4.2rem 0; scroll-margin-top: 96px; }
+    .sec-kicker { color: var(--accent-2); font-weight: 700; letter-spacing: .12em; text-transform: uppercase; font-size: .75rem; margin-bottom: .4rem; }
+    .sec-lead { color: var(--muted); max-width: 40rem; font-size: 1.08rem; }
+
+    /* Catalog filters */
+    #catalogo { background: var(--paper); }
+    .filters { display: flex; flex-wrap: wrap; gap: .85rem 1.5rem; margin: 1.6rem 0 1.8rem; align-items: flex-end; }
+    .filter-group { display: flex; flex-direction: column; gap: .4rem; }
+    .filter-group span { font-size: .75rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+    .chips { display: flex; flex-wrap: wrap; gap: .4rem; }
+    .chip {
+      border: 1px solid var(--line); background: #fff; color: var(--navy);
+      padding: .35rem .75rem; border-radius: 100px; cursor: pointer; font-weight: 600; font-size: .88rem;
+    }
+    .chip[aria-pressed="true"], .chip.active {
+      background: var(--navy); color: #fff; border-color: var(--navy);
+    }
+    .chip:hover { border-color: var(--navy); }
+
+    .grid {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.15rem;
+    }
+    .card {
+      background: #fff; border: 1px solid var(--line); border-radius: 8px;
+      overflow: hidden; display: flex; flex-direction: column;
+      cursor: pointer; text-align: left;
+      transition: transform .25s, box-shadow .25s, border-color .25s;
+      color: inherit; width: 100%; padding: 0; font: inherit;
+    }
+    .card:hover, .card:focus-visible {
+      transform: translateY(-3px); box-shadow: var(--shadow); border-color: #c9c4d6; outline: none;
+    }
+    .card-img {
+      background: #fff; aspect-ratio: 4/3; display: grid; place-items: center; padding: .8rem;
+    }
+    .card-img img { max-height: 100%; width: auto; max-width: 100%; object-fit: contain; }
+    .card-body { padding: .85rem 1rem 1.1rem; border-top: 1px solid var(--line); }
+    .card-type { font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--accent-2); }
+    .card-body h3 { font-size: 1.35rem; margin: .15rem 0 .25rem; }
+    .card-meta { font-size: .9rem; color: var(--muted); margin: 0; }
+    .card-cta { margin-top: .55rem; font-weight: 700; color: var(--navy); font-size: .9rem; }
+    .empty-cat { display: none; text-align: center; padding: 2rem; color: var(--muted); }
+    #catalog-count { font-size: .9rem; color: var(--muted); margin: 0 0 1rem; }
+
+    /* Modal */
+    .modal-back {
+      position: fixed; inset: 0; background: rgba(22,10,82,.55);
+      z-index: 60; display: none; align-items: flex-start; justify-content: center;
+      padding: 4vh 1rem 2rem; overflow: auto;
+    }
+    .modal-back.open { display: flex; }
+    .modal {
+      background: #fff; width: min(980px, 100%); border-radius: 10px;
+      box-shadow: 0 20px 60px rgba(0,0,0,.25); position: relative;
+      animation: modalIn .35s ease;
+    }
+    @keyframes modalIn { from { opacity: 0; transform: translateY(16px) scale(.98); } to { opacity: 1; transform: none; } }
+    .modal-close {
+      position: absolute; top: .6rem; right: .6rem; z-index: 2;
+      width: 40px; height: 40px; border: 0; border-radius: 50%;
+      background: #fff; color: var(--navy); font-size: 1.4rem; cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,.12);
+    }
+    .modal-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
+    .modal-photos { background: var(--paper); padding: 1.4rem; display: flex; flex-direction: column; gap: .8rem; }
+    .modal-photos img { width: 100%; object-fit: contain; max-height: 420px; background: #fff; border-radius: 6px; }
+    .modal-body { padding: 1.6rem 1.5rem 1.8rem; }
+    .modal-body h3 { font-size: 2rem; }
+    .spec { width: 100%; border-collapse: collapse; font-size: .95rem; margin: 1rem 0 1.2rem; }
+    .spec th, .spec td { text-align: left; padding: .45rem .2rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+    .spec th { color: var(--muted); font-weight: 600; width: 38%; }
+    .note { font-size: .85rem; color: var(--muted); }
+
+    /* Compare */
+    .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; background: #fff; }
+    table.cmp { width: 100%; border-collapse: collapse; font-size: .88rem; min-width: 860px; }
+    table.cmp th, table.cmp td { padding: .65rem .75rem; text-align: left; border-bottom: 1px solid var(--line); vertical-align: top; }
+    table.cmp thead th { background: var(--navy); color: #fff; font-family: "Barlow Condensed", sans-serif; font-size: 1rem; letter-spacing: .03em; position: sticky; top: 0; z-index: 1; }
+    table.cmp tbody tr:hover { background: var(--accent-soft); }
+    table.cmp td:first-child, table.cmp th:first-child { position: sticky; left: 0; background: #fff; font-weight: 600; color: var(--navy); min-width: 10.5rem; z-index: 2; }
+    table.cmp thead th:first-child { background: var(--navy); color: #fff; z-index: 3; }
+    table.cmp tbody tr:hover td:first-child { background: var(--accent-soft); }
+    .linkish { background: none; border: 0; padding: 0; color: var(--navy); font: inherit; font-weight: 600; cursor: pointer; text-decoration: underline; }
+
+    /* Calculator */
+    #capacidad { background: var(--navy-deep); color: #fff; }
+    #capacidad h2, #capacidad h3 { color: #fff; }
+    .calc-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; align-items: start; }
+    .calc-card { background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.14); border-radius: 10px; padding: 1.4rem 1.5rem; }
+    .field { margin-bottom: 1rem; }
+    .field label { display: block; font-weight: 600; margin-bottom: .35rem; font-size: .92rem; }
+    .field input, .field select {
+      width: 100%; padding: .65rem .75rem; border-radius: 6px; border: 1px solid rgba(255,255,255,.2);
+      background: #fff; color: var(--ink);
+    }
+    .hint { font-size: .82rem; color: #c9d8de; margin-top: .3rem; }
+    .calc-result { display: none; }
+    .calc-result.show { display: block; }
+    .calc-need { font-family: "Barlow Condensed", sans-serif; font-size: 3rem; color: #fff; line-height: 1; }
+    .calc-need span { font-size: 1.1rem; letter-spacing: .06em; }
+    .rec-list { list-style: none; padding: 0; margin: 1rem 0 0; }
+    .rec-list li { background: #fff; color: var(--ink); border-radius: 8px; padding: .85rem 1rem; margin-bottom: .55rem; display: flex; justify-content: space-between; gap: 1rem; align-items: center; flex-wrap: wrap; }
+    .rec-list strong { color: var(--navy); font-size: 1.05rem; }
+
+    /* Why / layers */
+    .layers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1.8rem; }
+    .layer-card { background: var(--paper); border-radius: 8px; padding: 1.2rem 1.2rem 1.4rem; border: 1px solid var(--line); }
+    .swatches { display: flex; height: 14px; border-radius: 100px; overflow: hidden; margin: .8rem 0 1rem; border: 1px solid var(--line); }
+    .swatches i { flex: 1; display: block; }
+    .facts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1.8rem; }
+    .fact { border-top: 3px solid var(--accent); padding-top: .8rem; }
+    .fact strong { display: block; color: var(--navy); font-size: 1.05rem; margin-bottom: .25rem; }
+
+    /* Warranty + mayoristas */
+    .split { display: grid; grid-template-columns: 1.1fr .9fr; gap: 2rem; }
+    .panel { background: var(--paper); border-radius: 8px; padding: 1.6rem 1.6rem 1.8rem; }
+    .panel-navy { background: var(--navy); color: #fff; border-radius: 8px; padding: 1.8rem; }
+    .panel-navy h2, .panel-navy h3 { color: #fff; }
+    .panel-navy p { color: #e4e0f2; }
+    .warranty-mark {
+      font-family: "Barlow Condensed", sans-serif; font-size: 4.5rem; color: var(--navy); line-height: .85; margin: .4rem 0 1rem;
+    }
+    .warranty-mark small { display: block; font-size: 1.2rem; letter-spacing: .08em; }
+
+    /* Factory band */
+    .factory { background: var(--paper); }
+    .factory .factory-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 2rem; align-items: center; }
+    .factory figure { margin: 0; }
+    .factory img { width: 100%; border-radius: 8px; box-shadow: var(--shadow); }
+    .factory figcaption { font-size: .88rem; color: var(--muted); margin-top: .55rem; }
+    @media (max-width: 900px) { .factory .factory-grid { grid-template-columns: 1fr; } }
+
+    /* FAQ */
+    #faq { background: var(--paper); }
+    details {
+      background: #fff; border: 1px solid var(--line); border-radius: 8px;
+      padding: .2rem 1rem; margin-bottom: .55rem;
+    }
+    details[open] { border-color: #cfc8e0; }
+    summary { cursor: pointer; font-weight: 600; color: var(--navy); padding: .85rem 0; list-style: none; display: flex; justify-content: space-between; gap: 1rem; }
+    summary::-webkit-details-marker { display: none; }
+    summary::after { content: "+"; font-weight: 700; color: var(--accent-2); }
+    details[open] summary::after { content: "–"; }
+    details p { color: var(--muted); padding-bottom: .9rem; }
+
+    /* Contact */
+    .contact-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: 1.5rem; }
+    .contact-card { border: 1px solid var(--line); border-radius: 8px; padding: 1.4rem 1.5rem; }
+    .contact-card dt { font-size: .75rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-top: .85rem; }
+    .contact-card dt:first-child { margin-top: 0; }
+    .contact-card dd { margin: .15rem 0 0; }
+    .contact-card a { color: var(--navy); font-weight: 600; text-decoration: none; }
+    .contact-card a:hover { text-decoration: underline; }
+    .map-wrap { border-radius: 8px; overflow: hidden; border: 1px solid var(--line); min-height: 340px; }
+    .map-wrap iframe { width: 100%; height: 340px; border: 0; display: block; }
+    .map-link { display: inline-block; margin-top: .6rem; font-weight: 600; }
+
+    footer {
+      background: var(--navy-deep); color: #c8c4d8; padding: 1.6rem 0;
+      font-size: .88rem;
+    }
+    footer .wrap { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+    footer a { color: #fff; }
+    .sample-note { opacity: .8; }
+
+    .reveal { opacity: 0; transform: translateY(18px); }
+    .reveal.in { opacity: 1; transform: none; transition: opacity .7s ease, transform .7s ease; }
+
+    @media (max-width: 900px) {
+      :root { --header-h: 72px; }
+      .logo img { height: 52px; }
+      nav { display: none; }
+      header.open nav {
+        display: flex; flex-direction: column; align-items: flex-start;
+        position: absolute; top: var(--header-h); left: 0; right: 0;
+        background: #fff; padding: 1rem 1.2rem 1.3rem; border-bottom: 1px solid var(--line);
+        box-shadow: var(--shadow); gap: .85rem;
+      }
+      .nav-toggle { display: block; }
+      .hero-grid, .calc-grid, .layers, .facts, .split, .contact-grid, .modal-grid, .grid {
+        grid-template-columns: 1fr;
+      }
+      .grid { grid-template-columns: repeat(2, 1fr); }
+      section { padding: 3.2rem 0; }
+    }
+    @media (max-width: 620px) {
+      .wrap { width: min(1180px, calc(100% - 28px)); }
+      .grid { grid-template-columns: 1fr; }
+      .hero { padding-top: 1.2rem; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+      .reveal { opacity: 1; transform: none; }
+    }
+  </style>
 </head>
 <body>
-<header>
-  <div class="w">
-    <a class="logo" href="#top">
-      <img src="img/logo.png" width="136" height="90" alt="ROPLAIN">
-      <span><strong>Agua Limpia</strong>Iztapalapa, CDMX</span>
-    </a>
-    <nav class="desk">
-      <a href="#catalogo">Catálogo</a>
-      <a href="#calidad">Rotomoldeo</a>
-      <a href="#cotizar">Cotizar</a>
-      <a href="#contacto">Contacto</a>
-      <a class="cta wa" href="https://wa.me/525521128404?text=Hola%2C%20vi%20la%20p%C3%A1gina%20de%20ROPLAIN%20y%20quiero%20una%20cotizaci%C3%B3n" target="_blank" rel="noopener">Cotizar por WhatsApp</a>
-    </nav>
-    <button class="burger" type="button" id="burger" aria-label="Abrir menú" aria-expanded="false"><span></span></button>
-  </div>
-  <nav class="mob" id="mob">
-    <a href="#catalogo">Catálogo</a>
-    <a href="#calidad">Rotomoldeo</a>
-    <a href="#cotizar">Cotizar</a>
-    <a href="#contacto">Contacto</a>
-    <a class="cta wa" href="https://wa.me/525521128404?text=Hola%2C%20vi%20la%20p%C3%A1gina%20de%20ROPLAIN%20y%20quiero%20una%20cotizaci%C3%B3n" target="_blank" rel="noopener">Cotizar por WhatsApp</a>
-  </nav>
-</header>
-
-<section class="hero" id="top">
-  <div class="w">
-    <div>
-      <p class="kicker">Fábrica de rotomoldeo · Iztapalapa</p>
-      <h1>Tinacos y cisternas para agua limpia.</h1>
-      <p class="lead">En ROPLAIN fabricamos y comercializamos tinacos y cisternas de polietileno. Calidad, innovación y un almacenamiento seguro, desde nuestra planta en Santa Martha Acatitla Norte.</p>
-      <div class="hero-actions">
-        <a class="btn wa" href="https://wa.me/525521128404?text=Hola%2C%20vi%20la%20p%C3%A1gina%20de%20ROPLAIN%20y%20quiero%20una%20cotizaci%C3%B3n" target="_blank" rel="noopener">Cotizar por WhatsApp</a>
-        <a class="btn ghost" href="#catalogo">Ver catálogo</a>
-      </div>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header id="topbar">
+    <div class="wrap head">
+      <a class="logo" href="#inicio" aria-label="ROPLAIN Agua Limpia, ir al inicio">
+        <img src="img/logo.png" alt="ROPLAIN Agua Limpia" width="253" height="205">
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="menu">
+        <a href="#catalogo">Catálogo</a>
+        <a href="#capacidad">Capacidad</a>
+        <a href="#comparar">Comparar</a>
+        <a href="#garantia">Garantía</a>
+        <a href="#contacto">Contacto</a>
+        <a class="btn btn-wa" href="https://wa.me/525521128404?text=Hola%2C%20quiero%20cotizar%20productos%20ROPLAIN." target="_blank" rel="noopener">Cotizar por WhatsApp</a>
+      </nav>
     </div>
-    <div class="hero-art">
-      <div class="glow" aria-hidden="true"></div>
-      <img src="img/tinacos-1200.png" alt="Tinacos ROPLAIN de 1,200 litros en tres presentaciones: tres capas beige, natural blanco y bicapa negro">
-      <div class="badge"><b>1,200 L</b><span>Tres presentaciones</span></div>
-    </div>
-  </div>
-</section>
+  </header>
 
-<div class="strip">
-  <div class="w">
-    <div><b>10 años</b><span>Garantía de fabricación del tinaco&nbsp;1,200&nbsp;L.</span></div>
-    <div><b>Polietileno</b><span>Cuerpo obtenido por rotomoldeo, de una sola pieza.</span></div>
-    <div><b>Iztapalapa</b><span>Planta en Santa Martha Acatitla Norte, CDMX.</span></div>
-    <div><b>5,000 L</b><span>Nueva cisterna tipo hamburguesa, lista para cotizar.</span></div>
-  </div>
-</div>
-
-<section class="section manifiesto" id="nosotros">
-  <div class="w">
-    <p class="kicker">Nuestra planta</p>
-    <p class="big" id="main-text">Ofrecemos la combinación de <em>calidad</em>, <em>innovación</em> y diseño. Dedicados a la fabricación y comercialización de <em>tinacos</em> y <em>cisternas</em>, pensados para un almacenamiento seguro y eficiente.</p>
-    <p class="note">Atendemos a particulares, obras y distribuidores. Si necesita otra capacidad, escríbanos: fabricamos bajo consulta.</p>
-  </div>
-</section>
-
-<section class="section" id="catalogo">
-  <div class="w">
-    <div class="cat-head">
-      <div>
-        <p class="kicker">Catálogo</p>
-        <h2>Tinacos y cisternas</h2>
-        <p class="sub">El tinaco de 1,200 litros se fabrica en tres presentaciones. La cisterna de 5,000 litros tipo hamburguesa es nuestra línea más reciente.</p>
-      </div>
-    </div>
-
-    <article class="tinaco-block">
-      <div class="stage">
-        <img id="tinaco-art" src="img/tinacos-1200.png" alt="Tinacos ROPLAIN de 1,200 litros: beige de tres capas, natural blanco y bicapa negro">
-      </div>
-      <div>
-        <p class="tag">Tinaco</p>
-        <h3>Tinaco de 1,200 litros</h3>
-        <p class="sub" style="margin-top:8px">Fabricado en polietileno. Elige la presentación según el uso y el lugar de instalación.</p>
-        <div class="tabs" role="tablist" aria-label="Presentaciones del tinaco de 1,200 litros">
-          <button type="button" role="tab" id="tab-tres" aria-selected="true" data-var="tres-capas">Tres capas</button>
-          <button type="button" role="tab" id="tab-bi" aria-selected="false" data-var="bicapa">Bicapa</button>
-          <button type="button" role="tab" id="tab-na" aria-selected="false" data-var="natural">Natural</button>
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">Fábrica de rotomoldeo · Iztapalapa, CDMX</p>
+          <h1>Tinacos y cisternas hechos para el agua de todos los días.</h1>
+          <p class="lead">ROPLAIN fabrica tinacos y cisternas de polietileno, de 550 a 12,000 litros, en acabado natural, bicapa o tricapa. La tecnología de sus materiales, en palabras del catálogo, inhibe la reproducción de bacterias y ofrece cero fugas.</p>
+          <div class="hero-actions">
+            <a class="btn btn-navy" href="#catalogo">Ver el catálogo</a>
+            <a class="btn btn-wa" href="https://wa.me/525521128404?text=Hola%2C%20quiero%20cotizar%20productos%20ROPLAIN." target="_blank" rel="noopener">Cotizar por WhatsApp</a>
+          </div>
+          <div class="trust">
+            <span class="pill">Garantía de 10 años</span>
+            <span class="pill">Cero fugas</span>
+            <span class="pill">Mayoreo y menudeo</span>
+            <span class="pill">Hecho en México</span>
+          </div>
         </div>
-        <div class="layers" id="layers" aria-hidden="false">
-          <div class="bar beige" id="ly-ext">Exterior beige</div>
-          <div class="bar black" id="ly-mid">Intermedia negra</div>
-          <div class="bar white" id="ly-in">Interior blanco</div>
-        </div>
-        <p id="var-copy" style="margin:8px 0 0;color:var(--mute);font-size:.95rem">Tres capas. Peso vacío: 22 kg. El exterior beige resiste el sol, la capa negra intermedia bloquea la luz y el interior blanco favorece un almacenamiento más limpio.</p>
-        <table class="specs">
-          <tr><th>Capacidad</th><td>1,200 litros</td></tr>
-          <tr><th>Alto</th><td>143 cm</td></tr>
-          <tr><th>Diámetro</th><td>110 cm</td></tr>
-          <tr><th>Peso vacío</th><td id="peso">22 kg</td></tr>
-          <tr><th>Material</th><td>Polietileno</td></tr>
-          <tr><th>Garantía</th><td>10 años de fabricación</td></tr>
-        </table>
-        <p style="margin:16px 0 6px;font-weight:700">Incluye</p>
-        <ul class="includes">
-          <li>Tapa rosca de 19 pulgadas</li>
-          <li>Brida</li>
-          <li>Flotador con válvula</li>
-          <li>Multiconector</li>
-          <li>Jarro de aire</li>
-        </ul>
-        <figure class="acc-photo">
-          <img src="img/accesorios.png" alt="Tapa rosca, flotador con válvula y accesorios que incluye el tinaco de 1,200 litros">
+        <figure class="hero-photo">
+          <img src="img/products/familia.jpg" alt="Familia de tinacos y cisternas ROPLAIN, de 550 a 12,000 litros, en beige, blanco, negro y azul" width="1976" height="1031">
+          <figcaption>Portada del catálogo ROPLAIN: tinacos, tinaco esfera, cisternas y cisterna con hombros.</figcaption>
         </figure>
-        <a class="btn wa" href="https://wa.me/525521128404?text=Hola%2C%20vi%20la%20p%C3%A1gina%20de%20ROPLAIN%20y%20quiero%20cotizar%20el%20tinaco%20de%201200%20litros" target="_blank" rel="noopener">Cotizar este tinaco</a>
       </div>
-    </article>
+    </section>
 
-    <div class="pair">
-      <article class="card stage-card">
-        <div class="stage">
-          <img src="img/cisterna-hamburguesa.svg" alt="Ilustración de cisterna tipo hamburguesa de 5,000 litros">
+    <section id="catalogo">
+      <div class="wrap">
+        <p class="sec-kicker">Catálogo</p>
+        <h2>Doce modelos, una misma fábrica.</h2>
+        <p class="sec-lead">Filtra por tipo o por capacidad y abre la ficha de cada modelo. Medidas, pesos, colores y fotos tomados del catálogo de la planta.</p>
+
+        <div class="filters">
+          <div class="filter-group">
+            <span>Tipo</span>
+            <div class="chips" id="filter-type" role="group" aria-label="Filtrar por tipo"></div>
+          </div>
+          <div class="filter-group">
+            <span>Capacidad</span>
+            <div class="chips" id="filter-cap" role="group" aria-label="Filtrar por capacidad"></div>
+          </div>
         </div>
-        <div class="pad">
-          <p class="tag">Nuevo · febrero 2026</p>
-          <h3>Cisterna 5,000 litros tipo hamburguesa</h3>
-          <p class="sub">Perfil bajo, pensada para instalaciones donde la altura es un tema. Quedamos a sus órdenes para ficha, color y entrega.</p>
-          <p style="margin:16px 0 20px"><a class="btn wa" href="https://wa.me/525521128404?text=Hola%2C%20vi%20la%20p%C3%A1gina%20de%20ROPLAIN%20y%20quiero%20cotizar%20la%20cisterna%20de%205000%20litros%20tipo%20hamburguesa" target="_blank" rel="noopener">Cotizar esta cisterna</a></p>
+        <p id="catalog-count"></p>
+        <div class="grid" id="product-grid"></div>
+        <p class="empty-cat" id="empty-cat">No hay modelos con esa combinación. Prueba otro filtro o <button class="linkish" type="button" id="reset-filters">ver todos</button>.</p>
+      </div>
+    </section>
+
+    <section id="capacidad">
+      <div class="wrap calc-grid">
+        <div>
+          <p class="sec-kicker" style="color:#9ec4d1">Guía de capacidad</p>
+          <h2>¿Qué capacidad necesito?</h2>
+          <p>Esta es una guía de referencia para el hogar, no una tabla oficial de ROPLAIN. Usamos 150 litros por persona al día —un consumo doméstico habitual en México— multiplicados por los días de reserva que quieras tener ante un corte o tandeo. Luego te mostramos el modelo ROPLAIN cuya capacidad cubre ese volumen.</p>
+          <div class="calc-card" style="margin-top:1.4rem">
+            <div class="field">
+              <label for="calc-people">Personas en la casa</label>
+              <input id="calc-people" type="number" min="1" max="80" value="4">
+            </div>
+            <div class="field">
+              <label for="calc-days">Días de reserva</label>
+              <input id="calc-days" type="number" min="1" max="30" value="3">
+              <p class="hint">Si el agua llega a diario, 1 o 2 días suelen bastar. Si hay tandeo, prueba con 3 a 5.</p>
+            </div>
+            <div class="field">
+              <label for="calc-use">Uso previsto</label>
+              <select id="calc-use">
+                <option value="cualquiera">Tinaco o cisterna</option>
+                <option value="tinaco">Solo tinacos de azotea</option>
+                <option value="cisterna">Solo cisternas</option>
+              </select>
+            </div>
+            <button class="btn btn-light" type="button" id="calc-btn">Calcular</button>
+          </div>
         </div>
-      </article>
-      <article class="card">
-        <p class="tag">A la medida</p>
-        <h3>Otras capacidades, bajo consulta</h3>
-        <p class="sub">Además del tinaco de 1,200 L y la cisterna de 5,000 L, atendemos pedidos de otras medidas. Cuéntenos el uso — casa, obra o reventa — y le armamos una cotización.</p>
-        <p class="sub">Si es distribuidor, también podemos hablar de volumen, tiempos de planta y entrega en Iztapalapa.</p>
-        <p style="margin:22px 0 0"><a class="btn ghost dark" href="#cotizar">Pedir una cotización</a></p>
-      </article>
-    </div>
-  </div>
-</section>
+        <div class="calc-card calc-result" id="calc-result" aria-live="polite">
+          <p class="sec-kicker" style="color:#9ec4d1">Volumen estimado</p>
+          <p class="calc-need" id="calc-need">0 <span>litros</span></p>
+          <p id="calc-copy" style="color:#d5e4ea"></p>
+          <ul class="rec-list" id="calc-recs"></ul>
+        </div>
+      </div>
+    </section>
 
-<section class="section" id="calidad" style="padding-top:0">
-  <div class="w why">
-    <div>
-      <p class="kicker">Por qué rotomoldeo</p>
-      <h2>Una sola pieza, pensada para durar.</h2>
-      <p class="sub">El rotomoldeo forma el tinaco o la cisterna en un solo cuerpo de polietileno, sin costuras. Así se reduce el riesgo de fugas y se logra una pared pareja, lista para el sol de la azotea o para una instalación a nivel de piso.</p>
-      <div class="why-grid" style="margin-top:22px">
-        <article>
-          <h3>Cuerpo monolítico</h3>
-          <p style="margin:0;color:var(--mute)">No hay uniones que se abran con el tiempo. El tanque sale de molde como una sola pieza.</p>
-        </article>
-        <article>
-          <h3>Tres capas, cuando se necesita</h3>
-          <p style="margin:0;color:var(--mute)">En la presentación de 22 kg, el beige exterior, el negro intermedio y el blanco interior trabajan juntos: sol, oscuridad y un contacto más limpio con el agua.</p>
-        </article>
-        <article>
-          <h3>Garantía de fabricación</h3>
-          <p style="margin:0;color:var(--mute)">El tinaco de 1,200 litros tiene 10 años de garantía de fabricación, con accesorios de instalación incluidos de origen.</p>
-        </article>
+    <section id="comparar">
+      <div class="wrap">
+        <p class="sec-kicker">Especificaciones</p>
+        <h2>Tabla comparativa</h2>
+        <p class="sec-lead">Medidas, peso y capas tal como aparecen en el catálogo. En las cisternas de 10,000 y 12,000 litros, las dimensiones pueden variar según el proceso de enfriamiento.</p>
+        <div class="table-wrap" style="margin-top:1.4rem">
+          <table class="cmp">
+            <thead>
+              <tr>
+                <th>Modelo</th>
+                <th>Capacidad</th>
+                <th>Alto</th>
+                <th>Diámetro / largo</th>
+                <th>Peso</th>
+                <th>Capas y colores</th>
+                <th>Incluye</th>
+              </tr>
+            </thead>
+            <tbody id="cmp-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="rotomoldeo">
+      <div class="wrap">
+        <p class="sec-kicker">Fabricación</p>
+        <h2>Por qué el rotomoldeo importa</h2>
+        <p class="sec-lead">Las piezas se moldean en polietileno —y, en las cisternas grandes, en polietileno industrial o HDPE— en una sola pieza. El catálogo resume así la promesa del material: inhibe la reproducción de bacterias y cero fugas.</p>
+        <div class="layers">
+          <article class="layer-card reveal">
+            <h3>Natural, unicapa</h3>
+            <div class="swatches" aria-hidden="true"><i style="background:#d9d4c8"></i></div>
+            <p>Una sola capa, en acabado translúcido o natural. Disponible en tinacos y cisternas del catálogo.</p>
+          </article>
+          <article class="layer-card reveal">
+            <h3>Bicapa</h3>
+            <div class="swatches" aria-hidden="true"><i style="background:#1a1a1a"></i><i style="background:#f4f4f4"></i></div>
+            <p>Exterior negro e interior blanco, según las fichas. El negro ayuda a proteger el agua; el blanco facilita ver el interior.</p>
+          </article>
+          <article class="layer-card reveal">
+            <h3>Tricapa</h3>
+            <div class="swatches" aria-hidden="true"><i style="background:#c4a882"></i><i style="background:#1a1a1a"></i><i style="background:#f4f4f4"></i></div>
+            <p>Exterior beige o azul (en algunos modelos también negro), intermedio negro e interior blanco. Es la configuración de tres capas que ROPLAIN describe en sus fichas.</p>
+          </article>
+        </div>
+        <div class="facts">
+          <div class="fact reveal">
+            <strong>De 550 a 12,000 litros</strong>
+            <p>Tinacos clásicos, slim, esfera y horizontal, más cisternas de 2,500 a 12,000 litros, incluida la cisterna con hombros de 5,000.</p>
+          </div>
+          <div class="fact reveal">
+            <strong>Mayoreo y menudeo</strong>
+            <p>El propio catálogo invita a solicitar cotización y destaca excelentes precios a mayoristas.</p>
+          </div>
+          <div class="fact reveal">
+            <strong>Planta en Iztapalapa</strong>
+            <p>Fabricación y venta en Calle Emilio Campa no. 15, Col. Santa Martha Acatitla Norte, CDMX.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="factory" id="planta">
+      <div class="wrap factory-grid">
+        <figure>
+          <img src="img/products/cisterna-12000-transporte.jpg" alt="Cisterna ROPLAIN de 12,000 litros, de color azul, recostada frente a la fachada de la planta, con el logotipo de la empresa en la lámina" width="490" height="566">
+          <figcaption>Cisterna de 12,000 litros frente a la planta ROPLAIN, foto del catálogo.</figcaption>
+        </figure>
+        <div>
+          <p class="sec-kicker">En la planta</p>
+          <h2>De Iztapalapa para toda la República</h2>
+          <p class="sec-lead">Así salen las cisternas grandes de la fábrica, en Calle Emilio Campa, Col. Santa Martha Acatitla Norte. Si quieres ver un modelo o armar un pedido de mayoreo, te esperamos en horario de planta o te cotizamos por WhatsApp.</p>
+          <a class="btn btn-navy" href="https://wa.me/525521128404?text=Hola%2C%20quiero%20cotizar%20productos%20ROPLAIN." target="_blank" rel="noopener">Cotizar por WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="garantia">
+      <div class="wrap split">
+        <div class="panel reveal">
+          <p class="sec-kicker">Calidad</p>
+          <h2>Garantía de 10 años</h2>
+          <p class="warranty-mark">10 <small>años de garantía</small></p>
+          <p>El catálogo lo dice con estas palabras: «Todos nuestros productos han sido probados y evaluados en su resistencia y durabilidad, por eso le ofrecemos una garantía de 10 años».</p>
+          <p>Aplica a problemas de fabricación, sujeta a evaluación, y únicamente al tinaco: no cubre los accesorios. En las fichas del tinaco horizontal de 1,100 litros y del tinaco de 1,200 litros se reitera la «garantía de fabricación 10 años».</p>
+        </div>
+        <div class="panel-navy reveal" id="distribuidores">
+          <p class="sec-kicker" style="color:#9ec4d1">Distribuidores</p>
+          <h2>Precios a mayoristas</h2>
+          <p>ROPLAIN vende de mayoreo y menudeo. Si eres ferretero, contratista o distribuidor, el catálogo invita a solicitar información o una cotización: «Quedamos a sus órdenes».</p>
+          <p>Escríbenos por WhatsApp y menciona que te interesa compra de mayoreo. Te armamos la lista de modelos y capacidades.</p>
+          <a class="btn btn-light" href="https://wa.me/525521128404?text=Hola%2C%20me%20interesa%20una%20cotizaci%C3%B3n%20de%20mayoreo%20ROPLAIN." target="_blank" rel="noopener">Cotizar mayoreo por WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="wrap" style="max-width:820px">
+        <p class="sec-kicker">Preguntas frecuentes</p>
+        <h2>Lo que suele preguntarse</h2>
+        <div style="margin-top:1.4rem">
+          <details open>
+            <summary>¿Qué garantías tiene el producto?</summary>
+            <p>Diez años por problemas de fabricación, sujeto a evaluación. Aplica únicamente al tinaco, no a los accesorios, según el catálogo.</p>
+          </details>
+          <details>
+            <summary>¿Qué accesorios incluye un tinaco?</summary>
+            <p>Depende del modelo. El tinaco slim de 750 litros incluye tapa de rosca, válvula de llenado y flotador no. 4, multiconector, jarro de aire y brida de 1½ pulgadas. El tinaco horizontal de 1,100 litros y el de 1,200 litros detallan tapa de rosca (18.5" y 19", respectivamente), brida, flotador con válvula, multiconector y jarro de aire. En otros modelos el catálogo solo indica «incluye accesorios» o «incluye tapa», sin desglose.</p>
+          </details>
+          <details>
+            <summary>¿En qué colores y capas se fabrican?</summary>
+            <p>La mayoría se ofrece en natural (unicapa), bicapa (exterior negro, interior blanco) y tricapa (exterior beige o azul —a veces también negro—, intermedio negro e interior blanco). El tinaco horizontal de 1,100 litros se presenta en el catálogo solo en tres capas, con exterior beige, azul o negro.</p>
+          </details>
+          <details>
+            <summary>¿Hay una cisterna de 1,200 litros?</summary>
+            <p>El índice del catálogo menciona cisternas de 1,200 litros, pero no hay una ficha con medidas ni foto de ese modelo. Lo que sí está documentado es el tinaco de 1,200 litros (143 cm de alto, 110 cm de diámetro). Si te interesa una cisterna de esa capacidad, conviene confirmarla al cotizar.</p>
+          </details>
+          <details>
+            <summary>¿Las medidas de las cisternas grandes son exactas?</summary>
+            <p>En las cisternas de 10,000 y 12,000 litros el catálogo advierte que las dimensiones pueden variar de acuerdo al proceso de enfriamiento. La de 10,000 litros mide 273 cm de alto por 224 cm de diámetro, con pared de 8 a 10 mm; la de 12,000, 323 cm de alto por 224 cm de diámetro, con pared de 10 a 12 mm.</p>
+          </details>
+          <details>
+            <summary>¿Fabrican biodigestores u otros tanques?</summary>
+            <p>En este catálogo solo aparecen tinacos y cisternas. No hay biodigestores, tolvas ni agrotanques en las 15 páginas que revisamos.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="wrap">
+        <p class="sec-kicker">Planta</p>
+        <h2>Visítanos o escríbenos</h2>
+        <div class="contact-grid" style="margin-top:1.4rem">
+          <div class="contact-card">
+            <dl>
+              <dt>Dirección</dt>
+              <dd>Calle Emilio Campa no. 15, Mz. 138, Col. Santa Martha Acatitla Norte, Iztapalapa, CDMX, C.P. 09140</dd>
+              <dt>Teléfono de oficina</dt>
+              <dd><a href="tel:+525515523160">55 1552 3160</a></dd>
+              <dt>Celular</dt>
+              <dd><a href="tel:+525548893408">55 4889 3408</a></dd>
+              <dt>Teléfono de planta</dt>
+              <dd><a href="tel:+525575295902">55 7529 5902</a></dd>
+              <dt>Correo</dt>
+              <dd><a href="mailto:sdonjuanr@hotmail.com">sdonjuanr@hotmail.com</a></dd>
+              <dt>Horario</dt>
+              <dd>Lunes a viernes, 9:00 a 18:00 · Sábado, 9:00 a 14:00 · Domingo cerrado</dd>
+              <dt>Facebook</dt>
+              <dd><a href="https://www.facebook.com/roplainmex" target="_blank" rel="noopener">facebook.com/roplainmex</a></dd>
+            </dl>
+            <p style="margin-top:1.2rem">
+              <a class="btn btn-wa" href="https://wa.me/525521128404?text=Hola%2C%20quiero%20informes%20de%20ROPLAIN." target="_blank" rel="noopener">Escribir por WhatsApp</a>
+            </p>
+          </div>
+          <div>
+            <div class="map-wrap">
+              <iframe title="Ubicación de la planta ROPLAIN en Iztapalapa" src="https://www.openstreetmap.org/export/embed.html?bbox=-99.016072%2C19.36852%2C-99.006072%2C19.37852&amp;layer=mapnik&amp;marker=19.37352%2C-99.011072" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=19.37352,-99.011072" target="_blank" rel="noopener">Abrir en Google Maps</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>ROPLAIN · Agua Limpia · Iztapalapa, Ciudad de México</span>
+      <span class="sample-note">Sitio de muestra. Los botones de cotización de esta página abren un WhatsApp de demostración.</span>
+    </div>
+  </footer>
+
+  <div class="modal-back" id="modal-back" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="modal" id="modal">
+      <button class="modal-close" type="button" aria-label="Cerrar ficha" id="modal-close">×</button>
+      <div class="modal-grid">
+        <div class="modal-photos" id="modal-photos"></div>
+        <div class="modal-body">
+          <p class="card-type" id="modal-type"></p>
+          <h3 id="modal-title"></h3>
+          <table class="spec" id="modal-spec"></table>
+          <p class="note" id="modal-note"></p>
+          <a class="btn btn-wa" id="modal-wa" target="_blank" rel="noopener">Cotizar por WhatsApp</a>
+        </div>
       </div>
     </div>
-    <aside class="cut">
-      <p class="kicker">Corte de pared</p>
-      <h3>Así está hecha la presentación tres capas</h3>
-      <p class="sub">De afuera hacia adentro: beige, negro y blanco. El bicapa omite el beige y deja el negro al exterior. El natural es una sola capa translúcida.</p>
-      <figure>
-        <svg class="cut-svg" viewBox="0 0 400 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Corte de las tres capas del tinaco: beige, negra y blanca">
-          <rect x="20" y="28" width="64" height="156" rx="6" fill="#C9B17A"/>
-          <rect x="84" y="28" width="44" height="156" rx="4" fill="#1A1A1A"/>
-          <rect x="128" y="28" width="56" height="156" rx="6" fill="#F7F4EC" stroke="#d8d2c6"/>
-          <rect x="184" y="28" width="196" height="156" rx="8" fill="#D8EEF8"/>
-          <text x="52" y="208" text-anchor="middle" font-size="12" font-family="Source Sans 3, sans-serif" fill="#5C5A66">Beige</text>
-          <text x="106" y="208" text-anchor="middle" font-size="12" font-family="Source Sans 3, sans-serif" fill="#5C5A66">Negra</text>
-          <text x="156" y="208" text-anchor="middle" font-size="12" font-family="Source Sans 3, sans-serif" fill="#5C5A66">Blanca</text>
-          <text x="282" y="114" text-anchor="middle" font-size="15" font-family="Source Sans 3, sans-serif" fill="#4E8799">Agua</text>
-        </svg>
-      </figure>
-    </aside>
   </div>
-</section>
 
-<section class="section cotizar" id="cotizar">
-  <div class="w">
-    <div>
-      <p class="kicker">Cotizar o distribución</p>
-      <h2>Cuéntenos lo que necesita.</h2>
-      <p class="sub">Particulares, obras y distribuidores. Le respondemos por WhatsApp, de lunes a sábado, en el horario de planta.</p>
-      <p class="sub">La planta está en Iztapalapa. Si quiere visitar o recoger, escríbanos antes para coordinar.</p>
-    </div>
-    <form id="quote" action="#" method="get">
-      <label>Nombre
-        <input type="text" name="nombre" required placeholder="Su nombre" autocomplete="name">
-      </label>
-      <label>Producto
-        <select name="producto" required>
-          <option value="Tinaco 1,200 L tres capas">Tinaco 1,200 L · tres capas</option>
-          <option value="Tinaco 1,200 L bicapa">Tinaco 1,200 L · bicapa</option>
-          <option value="Tinaco 1,200 L natural">Tinaco 1,200 L · natural</option>
-          <option value="Cisterna 5,000 L tipo hamburguesa">Cisterna 5,000 L tipo hamburguesa</option>
-          <option value="Otra capacidad / soy distribuidor">Otra capacidad / soy distribuidor</option>
-        </select>
-      </label>
-      <label>Mensaje
-        <textarea name="mensaje" rows="4" placeholder="Capacidad, cantidad o si busca ser distribuidor"></textarea>
-      </label>
-      <button class="btn wa" type="submit">Enviar por WhatsApp</button>
-    </form>
-  </div>
-</section>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js" defer></script>
+  <script>
+  const WA = "525521128404";
+  const waUrl = (text) => `https://wa.me/${WA}?text=${encodeURIComponent(text)}`;
 
-<section class="section" id="contacto">
-  <div class="w">
-    <p class="kicker">Contacto</p>
-    <h2>Visítenos en Iztapalapa.</h2>
-    <div class="contact-grid" style="margin-top:28px">
-      <dl class="facts">
-        <dt>Dirección</dt>
-        <dd>Calle Emilio Campa No. 15, Mz. 138,<br>Col. Santa Martha Acatitla Norte,<br>Iztapalapa, Ciudad de México, C.P. 09140</dd>
-        <dt>Horario</dt>
-        <dd>Lunes a viernes, 9:00 a 18:00 h<br>Sábado, 9:00 a 14:00 h<br>Domingo cerrado</dd>
-        <dt>Teléfono de planta</dt>
-        <dd><a href="tel:+525575295902">55 7529 5902</a></dd>
-        <dt>Correo</dt>
-        <dd><a href="mailto:dorr701109@hotmail.com">dorr701109@hotmail.com</a></dd>
-        <dt>Facebook</dt>
-        <dd><a href="https://www.facebook.com/roplainmex" target="_blank" rel="noopener">facebook.com/roplainmex</a></dd>
-        <dt style="margin-top:22px">WhatsApp</dt>
-        <dd><a class="btn wa" href="https://wa.me/525521128404?text=Hola%2C%20vi%20la%20p%C3%A1gina%20de%20ROPLAIN%20y%20quiero%20una%20cotizaci%C3%B3n" target="_blank" rel="noopener">Escribir por WhatsApp</a></dd>
-      </dl>
-      <div class="map-wrap">
-        <iframe class="map" title="Mapa de ROPLAIN en Santa Martha Acatitla Norte, Iztapalapa" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.openstreetmap.org/export/embed.html?bbox=-99.021072%2C19.363520%2C-99.001072%2C19.383520&amp;layer=mapnik&amp;marker=19.37352%2C-99.011072"></iframe>
-        <a class="map-link" href="https://www.google.com/maps?q=19.37352,-99.011072" target="_blank" rel="noopener">Abrir en Google Maps</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<footer>
-  <div class="w">
-    <div><strong>ROPLAIN</strong> · Agua Limpia<br>Tinacos y cisternas de rotomoldeo en Iztapalapa.</div>
-    <div>Calle Emilio Campa 15, Santa Martha Acatitla Norte, CDMX.</div>
-  </div>
-</footer>
-
-<a class="float-wa" href="https://wa.me/525521128404?text=Hola%2C%20vi%20la%20p%C3%A1gina%20de%20ROPLAIN%20y%20quiero%20una%20cotizaci%C3%B3n" target="_blank" rel="noopener" aria-label="Cotizar por WhatsApp">
-  <svg viewBox="0 0 24 24" fill="#083216" aria-hidden="true"><path d="M20.5 3.5A11 11 0 0 0 2.1 16.8L1 23l6.4-1.1A11 11 0 0 0 21.5 12a10.9 10.9 0 0 0-1-8.5zM12 20.3a9.2 9.2 0 0 1-4.7-1.3l-.3-.2-3.8.7.7-3.7-.2-.3A9.2 9.2 0 1 1 12 20.3zm5.3-6.9c-.3-.1-1.7-.8-2-.9s-.5-.1-.7.1-.8.9-1 1.1-.4.2-.7.1a7.6 7.6 0 0 1-2.2-1.4 8.3 8.3 0 0 1-1.5-1.9c-.2-.3 0-.5.1-.6l.5-.6c.1-.1.2-.3.3-.5a.5.5 0 0 0 0-.5c0-.1-.7-1.8-1-2.4s-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.8.4 3.5 3.5 0 0 0-1.1 2.6 6.1 6.1 0 0 0 1.3 3.2 13.9 13.9 0 0 0 5.3 4.7c.7.3 1.3.4 1.7.5a4 4 0 0 0 1.8.1 3.1 3.1 0 0 0 2-1.4 2.5 2.5 0 0 0 .2-1.4c-.1-.2-.3-.2-.6-.3z"/></svg>
-</a>
-
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
-<script>
-(function(){
-  var WA = 'https://wa.me/525521128404?text=';
-  var burger = document.getElementById('burger');
-  var mob = document.getElementById('mob');
-  burger.addEventListener('click', function(){
-    var on = mob.classList.toggle('on');
-    burger.setAttribute('aria-expanded', on ? 'true' : 'false');
-  });
-  mob.querySelectorAll('a').forEach(function(a){
-    a.addEventListener('click', function(){ mob.classList.remove('on'); burger.setAttribute('aria-expanded','false'); });
-  });
-
-  var copy = {
-    'tres-capas': {
-      text: 'Tres capas. Peso vacío: 22 kg. El exterior beige resiste el sol, la capa negra intermedia bloquea la luz y el interior blanco favorece un almacenamiento más limpio.',
-      peso: '22 kg',
-      layers: ['beige','black','white'],
-      labels: ['Exterior beige','Intermedia negra','Interior blanco']
+  const PRODUCTS = [
+    {
+      id: "tinaco-550",
+      name: "Tinaco 550 L",
+      catalogTitle: "Tinaco Bicapa 550 Lt",
+      type: "tinaco",
+      typeLabel: "Tinaco",
+      capacity: 550,
+      material: "Polietileno",
+      layers: "Natural (unicapa), bicapa o tricapa",
+      colors: "Natural unicapa. Bicapa: exterior negro, interior blanco. Tricapa: exterior beige o azul, intermedio negro, interior blanco.",
+      dims: "Alto 104 cm · Diámetro 92 cm",
+      height: "104 cm",
+      diameter: "92 cm",
+      weight: "14 kg",
+      accessories: "Incluye accesorios",
+      note: "La portada de esta ficha se titula «Tinaco Bicapa 550 Lt», pero el recuadro lista también las versiones natural y tricapa.",
+      image: "img/products/tinaco-550.jpg",
+      extras: ["img/products/accesorios.jpg"]
     },
-    'bicapa': {
-      text: 'Bicapa. Peso vacío: 18 kg. Exterior negro e interior blanco.',
-      peso: '18 kg',
-      layers: ['black','white'],
-      labels: ['Exterior negro','Interior blanco']
+    {
+      id: "tinaco-750",
+      name: "Tinaco 750 L",
+      catalogTitle: "Tinaco 750 Lt",
+      type: "tinaco",
+      typeLabel: "Tinaco",
+      capacity: 750,
+      material: "Polietileno",
+      layers: "Natural (unicapa), bicapa o tricapa",
+      colors: "Natural unicapa. Bicapa: exterior negro, interior blanco. Tricapa: exterior beige o azul, intermedio negro, interior blanco.",
+      dims: "Alto 105 cm · Diámetro 110 cm",
+      height: "105 cm",
+      diameter: "110 cm",
+      weight: "16 kg",
+      accessories: "Incluye accesorios",
+      image: "img/products/tinaco-750.jpg",
+      extras: ["img/products/accesorios.jpg"]
     },
-    'natural': {
-      text: 'Natural. Peso vacío: 22 kg. Una sola capa translúcida de polietileno.',
-      peso: '22 kg',
-      layers: ['trans'],
-      labels: ['Capa translúcida']
+    {
+      id: "tinaco-slim-750",
+      name: "Tinaco Slim 750 L",
+      catalogTitle: "Tinaco Slim 750 Lt",
+      type: "tinaco",
+      typeLabel: "Tinaco slim",
+      capacity: 750,
+      material: "Polietileno virgen",
+      layers: "Natural (unicapa), bicapa o tricapa",
+      colors: "Natural unicapa. Bicapa: exterior negro, interior blanco. Tricapa: exterior beige o azul, intermedio negro, interior blanco.",
+      dims: "Alto 182 cm · Diámetro 78 cm",
+      height: "182 cm",
+      diameter: "78 cm",
+      weight: "18 kg (vacío)",
+      accessories: "Tapa de rosca, válvula de llenado y flotador no. 4, multiconector, jarro de aire, brida de 1½ pulgadas",
+      image: "img/products/tinaco-slim-750.jpg",
+      extras: ["img/products/tapa-rosca.jpg", "img/products/accesorios.jpg"]
+    },
+    {
+      id: "tinaco-esfera-1100",
+      name: "Tinaco Esfera 1,100 L",
+      catalogTitle: "Tinaco Esfera 1100 Lt",
+      type: "tinaco",
+      typeLabel: "Tinaco esfera",
+      capacity: 1100,
+      material: "Polietileno",
+      layers: "Natural (unicapa), bicapa o tricapa",
+      colors: "Natural unicapa. Bicapa: negro exterior, blanco interior. Tricapa: azul o beige exterior, intermedio negro, interior blanco.",
+      dims: "Alto 125 cm · Diámetro 122 cm · Base 81 cm",
+      height: "125 cm",
+      diameter: "122 cm (base 81 cm)",
+      weight: "25 kg",
+      accessories: "Incluye accesorios",
+      image: "img/products/tinaco-esfera-1100.jpg",
+      extras: ["img/products/accesorios.jpg"]
+    },
+    {
+      id: "tinaco-horizontal-1100",
+      name: "Tinaco Horizontal 1,100 L",
+      catalogTitle: "Tinaco Horizontal 1100 Lt",
+      type: "tinaco",
+      typeLabel: "Tinaco horizontal",
+      capacity: 1100,
+      material: "Polietileno",
+      layers: "Tres capas",
+      colors: "Exterior beige, azul o negro; intermedio negro; interior blanco.",
+      dims: "Alto 120 cm · Diámetro 110 cm · Largo 132 cm",
+      height: "120 cm",
+      diameter: "110 cm · Largo 132 cm",
+      weight: "32 kg (vacío)",
+      accessories: "Tapa de rosca 18.5 pulgadas, brida, flotador con válvula, multiconector, jarro de aire",
+      warrantyExtra: "Garantía de fabricación 10 años, según la ficha.",
+      image: "img/products/tinaco-horizontal-1100.jpg",
+      extras: ["img/products/accesorios.jpg"]
+    },
+    {
+      id: "tinaco-1200",
+      name: "Tinaco 1,200 L",
+      catalogTitle: "Tinacos 1200 Lt",
+      type: "tinaco",
+      typeLabel: "Tinaco",
+      capacity: 1200,
+      material: "Polietileno",
+      layers: "Natural (unicapa, 22 kg), bicapa (18 kg) o tricapa (22 kg)",
+      colors: "Tres capas: exterior beige, intermedio negro, interior blanco (22 kg vacío). Bicapa: exterior negro, interior blanco (18 kg vacío). Natural: unicapa translúcido (22 kg vacío).",
+      dims: "Alto 143 cm · Diámetro 110 cm",
+      height: "143 cm",
+      diameter: "110 cm",
+      weight: "22 kg (tricapa o natural) · 18 kg (bicapa), vacío",
+      accessories: "Tapa de rosca 19 pulgadas, brida, flotador con válvula, multiconector, jarro de aire",
+      warrantyExtra: "Garantía de fabricación 10 años, según la ficha.",
+      image: "img/products/tinaco-1200.jpg",
+      extras: ["img/products/accesorios.jpg"]
+    },
+    {
+      id: "tinaco-cisterna-2500",
+      name: "Tinaco Cisterna 2,500 L",
+      catalogTitle: "Tinaco Cisterna 2500 Lt",
+      type: "cisterna",
+      typeLabel: "Tinaco cisterna",
+      capacity: 2500,
+      material: "Polietileno",
+      layers: "Natural (unicapa), bicapa o tricapa",
+      colors: "Natural unicapa. Bicapa: negro exterior, blanco interior. Tricapa: azul o beige exterior, intermedio negro, interior blanco.",
+      dims: "Alto 153 cm · Diámetro 150 cm",
+      height: "153 cm",
+      diameter: "150 cm",
+      weight: "45 kg",
+      accessories: "Incluye tapa",
+      image: "img/products/tinaco-cisterna-2500.jpg"
+    },
+    {
+      id: "tinaco-cisterna-3000",
+      name: "Tinaco Cisterna 3,000 L",
+      catalogTitle: "Tinaco Cisterna 3000 Lt",
+      type: "cisterna",
+      typeLabel: "Tinaco cisterna",
+      capacity: 3000,
+      material: "Polietileno",
+      layers: "Natural (unicapa), bicapa o tricapa",
+      colors: "Natural unicapa. Bicapa: negro exterior, blanco interior. Tricapa: azul o beige exterior, intermedio negro, interior blanco.",
+      dims: "Alto 154 cm · Diámetro 162 cm",
+      height: "154 cm",
+      diameter: "162 cm",
+      weight: "55 kg",
+      accessories: "Incluye tapa",
+      image: "img/products/tinaco-cisterna-3000.jpg"
+    },
+    {
+      id: "cisterna-5000",
+      name: "Cisterna 5,000 L",
+      catalogTitle: "Cisterna 5000 Lt",
+      type: "cisterna",
+      typeLabel: "Cisterna",
+      capacity: 5000,
+      material: "Polietileno virgen",
+      layers: "Natural (unicapa), bicapa o tricapa",
+      colors: "Natural unicapa. Bicapa: negro exterior, blanco interior. Tricapa: azul o beige exterior, intermedio negro, interior blanco.",
+      dims: "Alto 210 cm · Diámetro 184 cm",
+      height: "210 cm",
+      diameter: "184 cm",
+      weight: "90 kg",
+      accessories: "Incluye tapa",
+      image: "img/products/cisterna-5000.jpg"
+    },
+    {
+      id: "cisterna-hombros-5000",
+      name: "Cisterna Hombros 5,000 L",
+      catalogTitle: "Cisterna Hombros 5000 Lt",
+      type: "cisterna",
+      typeLabel: "Cisterna con hombros",
+      capacity: 5000,
+      material: "Polietileno",
+      layers: "Natural (unicapa), bicapa o tricapa",
+      colors: "Natural unicapa. Bicapa: negro exterior, blanco interior. Tricapa: azul o beige exterior, intermedio negro, interior blanco.",
+      dims: "Alto 205 cm · Diámetro 184 cm",
+      height: "205 cm",
+      diameter: "184 cm",
+      weight: "90 kg",
+      accessories: "Incluye tapa de 18.5 pulgadas",
+      image: "img/products/cisterna-hombros-5000.jpg",
+      extras: ["img/products/tapa-hombros.jpg"]
+    },
+    {
+      id: "cisterna-10000",
+      name: "Cisterna 10,000 L",
+      catalogTitle: "Cisterna 10,000 lts.",
+      type: "cisterna",
+      typeLabel: "Cisterna",
+      capacity: 10000,
+      material: "Polietileno industrial o HDPE",
+      layers: "Natural (unicapa), bicapa o tricapa",
+      colors: "Natural unicapa. Bicapa: exterior negro, interior blanco. Tricapa: exterior azul o beige, intermedio negro, interior blanco.",
+      dims: "Alto 273 cm · Diámetro 224 cm · Pared de 8 a 10 mm",
+      height: "273 cm",
+      diameter: "224 cm",
+      weight: "200 kg (vacío)",
+      accessories: "Tapa con rosca de 18.5 pulgadas",
+      note: "Las dimensiones pueden variar de acuerdo al proceso de enfriamiento.",
+      image: "img/products/cisterna-10000.jpg",
+      extras: ["img/products/cisterna-10000-planta.jpg"]
+    },
+    {
+      id: "cisterna-12000",
+      name: "Cisterna 12,000 L",
+      catalogTitle: "Cisterna 12,000 lts",
+      type: "cisterna",
+      typeLabel: "Cisterna",
+      capacity: 12000,
+      material: "Polietileno industrial o HDPE",
+      layers: "Natural (unicapa), bicapa o tricapa",
+      colors: "Natural unicapa. Bicapa: exterior negro, interior blanco. Tricapa: exterior beige o azul, intermedio negro, interior blanco.",
+      dims: "Alto 323 cm · Diámetro 224 cm · Pared de 10 a 12 mm",
+      height: "323 cm",
+      diameter: "224 cm",
+      weight: "220 kg (vacío)",
+      accessories: "Tapa de rosca 18.5 mm, según el catálogo (en la cisterna de 10,000 litros se indica tapa de 18.5 pulgadas)",
+      note: "Las dimensiones pueden variar de acuerdo al proceso de enfriamiento.",
+      image: "img/products/cisterna-12000.jpg",
+      extras: ["img/products/cisterna-12000-transporte.jpg", "img/products/tapa-hombros.jpg"]
     }
-  };
+  ];
 
-  var varCopy = document.getElementById('var-copy');
-  var layerBox = document.getElementById('layers');
-  document.querySelectorAll('.tabs button').forEach(function(btn){
-    btn.addEventListener('click', function(){
-      document.querySelectorAll('.tabs button').forEach(function(b){ b.setAttribute('aria-selected','false'); });
-      btn.setAttribute('aria-selected','true');
-      var v = copy[btn.getAttribute('data-var')];
-      varCopy.textContent = v.text;
-      document.getElementById('peso').textContent = v.peso;
-      layerBox.innerHTML = v.layers.map(function(cls, i){
-        return '<div class="bar '+cls+'">'+v.labels[i]+'</div>';
-      }).join('');
+  const TYPES = [
+    { id: "all", label: "Todos" },
+    { id: "tinaco", label: "Tinacos" },
+    { id: "cisterna", label: "Cisternas" }
+  ];
+  const CAPS = [550, 750, 1100, 1200, 2500, 3000, 5000, 10000, 12000];
+
+  let filterType = "all";
+  let filterCap = "all";
+
+  const fmtL = (n) => n.toLocaleString("es-MX") + " L";
+
+  function chips() {
+    const t = document.getElementById("filter-type");
+    const c = document.getElementById("filter-cap");
+    t.innerHTML = TYPES.map(x => `<button type="button" class="chip${x.id==="all"?" active":""}" data-type="${x.id}" aria-pressed="${x.id==="all"}">${x.label}</button>`).join("");
+    c.innerHTML = [`<button type="button" class="chip active" data-cap="all" aria-pressed="true">Todas</button>`]
+      .concat(CAPS.map(n => `<button type="button" class="chip" data-cap="${n}" aria-pressed="false">${fmtL(n)}</button>`)).join("");
+    t.addEventListener("click", ev => {
+      const b = ev.target.closest("[data-type]"); if (!b) return;
+      filterType = b.dataset.type;
+      t.querySelectorAll(".chip").forEach(x => { x.classList.toggle("active", x===b); x.setAttribute("aria-pressed", x===b); });
+      renderGrid();
     });
+    c.addEventListener("click", ev => {
+      const b = ev.target.closest("[data-cap]"); if (!b) return;
+      filterCap = b.dataset.cap;
+      c.querySelectorAll(".chip").forEach(x => { x.classList.toggle("active", x===b); x.setAttribute("aria-pressed", x===b); });
+      renderGrid();
+    });
+    document.getElementById("reset-filters").addEventListener("click", () => {
+      filterType = "all"; filterCap = "all";
+      t.querySelectorAll(".chip").forEach(x => { const on=x.dataset.type==="all"; x.classList.toggle("active", on); x.setAttribute("aria-pressed", on); });
+      c.querySelectorAll(".chip").forEach(x => { const on=x.dataset.cap==="all"; x.classList.toggle("active", on); x.setAttribute("aria-pressed", on); });
+      renderGrid();
+    });
+  }
+
+  function filtered() {
+    return PRODUCTS.filter(p => (filterType==="all" || p.type===filterType) && (filterCap==="all" || String(p.capacity)===String(filterCap)));
+  }
+
+  function renderGrid() {
+    const list = filtered();
+    const grid = document.getElementById("product-grid");
+    const empty = document.getElementById("empty-cat");
+    const count = document.getElementById("catalog-count");
+    count.textContent = list.length === PRODUCTS.length
+      ? `${list.length} modelos en el catálogo`
+      : `${list.length} modelo${list.length===1?"":"s"} con estos filtros`;
+    empty.style.display = list.length ? "none" : "block";
+    grid.innerHTML = list.map(p => `
+      <button type="button" class="card reveal in" data-open="${p.id}">
+        <div class="card-img"><img src="${p.image}" alt="${p.name} ROPLAIN" loading="lazy"></div>
+        <div class="card-body">
+          <div class="card-type">${p.typeLabel}</div>
+          <h3>${p.name}</h3>
+          <p class="card-meta">${p.dims}<br>${p.layers}</p>
+          <div class="card-cta">Ver ficha →</div>
+        </div>
+      </button>`).join("");
+  }
+
+  function row(label, value) {
+    if (!value) return "";
+    return `<tr><th>${label}</th><td>${value}</td></tr>`;
+  }
+
+  function openModal(id) {
+    const p = PRODUCTS.find(x => x.id===id); if (!p) return;
+    document.getElementById("modal-type").textContent = p.typeLabel;
+    document.getElementById("modal-title").textContent = p.name;
+    document.getElementById("modal-spec").innerHTML =
+      row("Nombre en el catálogo", p.catalogTitle) +
+      row("Capacidad", fmtL(p.capacity)) +
+      row("Material", p.material) +
+      row("Capas", p.layers) +
+      row("Colores", p.colors) +
+      row("Dimensiones", p.dims) +
+      row("Peso", p.weight) +
+      row("Incluye", p.accessories) +
+      row("Garantía", p.warrantyExtra || "Garantía de 10 años por problemas de fabricación, sujeta a evaluación. Aplica únicamente al tinaco, no a los accesorios.");
+    document.getElementById("modal-note").textContent = p.note || "";
+    const wa = document.getElementById("modal-wa");
+    wa.href = waUrl(`Hola, quiero cotizar el ${p.name} ROPLAIN.`);
+    const photos = [p.image].concat(p.extras || []);
+    const alts = {
+      "img/products/accesorios.jpg": "Accesorios del catálogo: tapa de rosca, flotador y conexiones",
+      "img/products/tapa-rosca.jpg": "Interior de una tapa de rosca ROPLAIN",
+      "img/products/tapa-hombros.jpg": "Tapa con refuerzos, vista del catálogo",
+      "img/products/cisterna-10000-planta.jpg": "Cisterna de 10,000 litros en planta, con medidas de 273 por 224 cm",
+      "img/products/cisterna-12000-transporte.jpg": "Cisterna de 12,000 litros frente a la planta ROPLAIN"
+    };
+    document.getElementById("modal-photos").innerHTML = photos.map((src,i) =>
+      `<img src="${src}" alt="${i===0 ? p.name + " ROPLAIN" : (alts[src]||p.name)}">`
+    ).join("");
+    const back = document.getElementById("modal-back");
+    back.hidden = false; back.classList.add("open");
+    document.body.style.overflow = "hidden";
+    document.getElementById("modal-close").focus();
+  }
+  function closeModal() {
+    const back = document.getElementById("modal-back");
+    back.classList.remove("open"); back.hidden = true;
+    document.body.style.overflow = "";
+  }
+
+  function renderTable() {
+    document.getElementById("cmp-body").innerHTML = PRODUCTS.map(p => `
+      <tr>
+        <td><button type="button" class="linkish" data-open="${p.id}">${p.name}</button></td>
+        <td>${fmtL(p.capacity)}</td>
+        <td>${p.height}</td>
+        <td>${p.diameter}</td>
+        <td>${p.weight}</td>
+        <td>${p.layers}</td>
+        <td>${p.accessories}</td>
+      </tr>`).join("");
+  }
+
+  function calculate() {
+    const people = Math.max(1, parseInt(document.getElementById("calc-people").value, 10) || 1);
+    const days = Math.max(1, parseInt(document.getElementById("calc-days").value, 10) || 1);
+    const use = document.getElementById("calc-use").value;
+    const need = people * 150 * days;
+    document.getElementById("calc-need").innerHTML = need.toLocaleString("es-MX") + " <span>litros</span>";
+    document.getElementById("calc-copy").textContent =
+      `${people} persona${people===1?"":"s"} × 150 L/día × ${days} día${days===1?"":"s"} de reserva. Es una estimación de referencia, no una ficha de ROPLAIN.`;
+    const byType = (type) => PRODUCTS.filter(p => p.type === type);
+    let pool = PRODUCTS.slice();
+    if (use === "tinaco") pool = byType("tinaco");
+    if (use === "cisterna") pool = byType("cisterna");
+    const covering = pool.filter(p => p.capacity >= need).sort((a,b) => a.capacity - b.capacity || a.name.localeCompare(b.name));
+    // If the chosen family cannot cover, fall back to the other family rather than jumping to 12,000 L.
+    let recs = covering.slice(0, 3);
+    let fallbackNote = "";
+    if (!recs.length) {
+      const alt = PRODUCTS.filter(p => p.capacity >= need).sort((a,b) => a.capacity - b.capacity);
+      if (alt.length) {
+        recs = alt.slice(0, 3);
+        fallbackNote = use === "tinaco"
+          ? "Ningún tinaco de azotea cubre este volumen. Estas cisternas del catálogo sí lo hacen."
+          : use === "cisterna"
+            ? "Ninguna cisterna por debajo de este volumen aparece en el filtro; te mostramos los modelos que sí alcanzan."
+            : "";
+      }
+    }
+    const box = document.getElementById("calc-recs");
+    if (!recs.length) {
+      const largest = PRODUCTS.slice().sort((a,b)=>b.capacity-a.capacity)[0];
+      box.innerHTML = `<li><div>El volumen estimado supera el modelo más grande del catálogo (${largest.name}). Se pueden cotizar dos o más unidades, o una combinación de tinaco y cisterna.</div><a class="btn btn-wa" href="${waUrl("Hola, quiero cotizar una reserva de agua de "+need.toLocaleString("es-MX")+" litros con ROPLAIN.")}" target="_blank" rel="noopener">Cotizar</a></li>`;
+    } else {
+      if (fallbackNote) {
+        box.setAttribute("data-note", fallbackNote);
+      } else { box.removeAttribute("data-note"); }
+
+      box.innerHTML = (fallbackNote ? `<li style="background:transparent;color:#d5e4ea;padding-left:0">${fallbackNote}</li>` : "") + recs.map((p,i) => `<li>
+        <div><strong>${p.name}</strong><br><span style="color:#5A5863">${p.typeLabel} · ${p.dims}</span>${i===0?"<br><span style=\"color:#156B45;font-weight:600\">El más cercano que cubre el volumen</span>":""}</div>
+        <div style="display:flex;gap:.4rem;flex-wrap:wrap">
+          <button type="button" class="btn btn-ghost" data-open="${p.id}">Ver ficha</button>
+          <a class="btn btn-wa" href="${waUrl("Hola, quiero cotizar el "+p.name+" ROPLAIN.")}" target="_blank" rel="noopener">Cotizar</a>
+        </div>
+      </li>`).join("");
+    }
+    document.getElementById("calc-result").classList.add("show");
+  }
+
+  document.addEventListener("click", ev => {
+    const open = ev.target.closest("[data-open]");
+    if (open) { ev.preventDefault(); openModal(open.dataset.open); }
+  });
+  document.getElementById("modal-close").addEventListener("click", closeModal);
+  document.getElementById("modal-back").addEventListener("click", ev => { if (ev.target.id==="modal-back") closeModal(); });
+  document.addEventListener("keydown", ev => { if (ev.key==="Escape") closeModal(); });
+
+  document.getElementById("calc-btn").addEventListener("click", calculate);
+  ["calc-people","calc-days","calc-use"].forEach(id => {
+    document.getElementById(id).addEventListener("change", calculate);
   });
 
-  document.getElementById('quote').addEventListener('submit', function(e){
-    e.preventDefault();
-    var fd = new FormData(e.target);
-    var nombre = (fd.get('nombre') || '').trim();
-    var prod = fd.get('producto') || '';
-    var msg = (fd.get('mensaje') || '').trim();
-    var text = 'Hola, vi la página de ROPLAIN y quiero una cotización. Soy ' + nombre + '. Producto: ' + prod + '.' + (msg ? ' ' + msg : '');
-    window.open(WA + encodeURIComponent(text), '_blank', 'noopener');
+  const topbar = document.getElementById("topbar");
+  const toggle = document.querySelector(".nav-toggle");
+  toggle.addEventListener("click", () => {
+    const open = !topbar.classList.contains("open");
+    topbar.classList.toggle("open", open);
+    toggle.setAttribute("aria-expanded", open);
   });
+  document.querySelectorAll("#menu a").forEach(a => a.addEventListener("click", () => {
+    topbar.classList.remove("open"); toggle.setAttribute("aria-expanded","false");
+  }));
+  window.addEventListener("scroll", () => topbar.classList.toggle("scrolled", window.scrollY > 8), {passive:true});
 
-  document.documentElement.classList.add('js');
-  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var els = document.querySelectorAll('.tinaco-block, .card, .why-grid article, .cut, .facts, .manifiesto .big, .manifiesto .note, #catalogo h2, #calidad h2, #cotizar h2, #contacto h2, form, .strip div');
-  els.forEach(function(el){ el.classList.add('reveal'); });
-  if (window.gsap && !reduce){
-    if (window.ScrollTrigger) gsap.registerPlugin(ScrollTrigger);
-    gsap.from('.hero .kicker, .hero h1, .hero .lead, .hero-actions', {y: 28, opacity: 0, duration: .9, stagger: .1, ease: 'power2.out', delay: .08});
-    gsap.from('.hero-art img, .hero-art .badge', {y: 24, opacity: 0, duration: 1, stagger: .12, ease: 'power2.out', delay: .15});
+  chips(); renderGrid(); renderTable(); calculate();
+
+  function initMotion() {
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    document.querySelectorAll(".reveal").forEach(el => {
+      if (reduce) { el.classList.add("in"); return; }
+      const io = new IntersectionObserver(entries => {
+        entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } });
+      }, { threshold: 0.12, rootMargin: "0px 0px -8% 0px" });
+      io.observe(el);
+    });
+    if (reduce || !window.gsap) return;
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.from(".hero h1, .hero .lead, .hero-actions, .trust", {
+      y: 22, opacity: 0, duration: .8, stagger: .12, ease: "power2.out", delay: .05
+    });
+    gsap.from(".hero-photo", { y: 28, opacity: 0, duration: 1, ease: "power2.out", delay: .15 });
+    // Cards stay visible (no opacity tween) so the catalog is solid in first paint.
   }
-  if (!reduce && 'IntersectionObserver' in window){
-    var io = new IntersectionObserver(function(entries){
-      entries.forEach(function(e){
-        if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
-      });
-    }, {threshold: 0.08, rootMargin: '0px 0px -6% 0px'});
-    els.forEach(function(el){ io.observe(el); });
-  }
-  setTimeout(function(){
-    document.querySelectorAll('.reveal').forEach(function(el){ el.classList.add('in'); });
-  }, 1800);
-})();
-</script>
+  if (document.readyState === "complete") initMotion();
+  else window.addEventListener("load", initMotion);
+  </script>
 </body>
 </html>
